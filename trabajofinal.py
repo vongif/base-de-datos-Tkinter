@@ -101,7 +101,7 @@ def actualizar(tree):
 
 def funcion_modificar(tree):
     if askyesno("Base Clientes", "Desea modificar el registro?"):
-       
+
         showinfo("Base Clientes", "Registro modificado")
     else:
         showinfo("No", "No se modificara el registro")
