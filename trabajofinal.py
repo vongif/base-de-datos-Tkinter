@@ -56,7 +56,13 @@ def funcion_alta(
         ),
     )
     actualizar(tree)
-    cuenta.set("")
+    limpiar_registro()
+
+
+def limpiar_registro():
+    valor_cuenta.set(""), valor_reparto.set(""), valor_cliente.set(""), valor_razon.set(
+        ""
+    ), valor_direccion.set(""), valor_localidad.set("")
 
 
 def funcion_borrar(tree):
@@ -87,7 +93,6 @@ def actualizar(tree):
     con = base()
     cursor = con.cursor()
     datos = cursor.execute(sql)
-
     resultado = datos.fetchall()
     for fila in resultado:
         print(fila)
@@ -101,7 +106,25 @@ def actualizar(tree):
 
 def funcion_modificar(tree):
     if askyesno("Base Clientes", "Desea modificar el registro?"):
-
+        cliente = tree.selection()
+        item = tree.item(cliente)
+        mi_id = item["text"]
+        con = base()
+        cursor = con.cursor()
+        data = (mi_id,)
+        sql = "UPDATE clientes SET cuenta = ?;"
+        datos = cursor.execute(sql, data)
+        con.commit()
+        resultado = datos.fetchall()
+    for fila in resultado:
+        tree.insert(
+            valor_cuenta.get(),
+            valor_reparto.get(),
+            valor_cliente.get(),
+            valor_razon.get(),
+            valor_direccion.get(),
+            valor_localidad.get(),
+        )
         showinfo("Base Clientes", "Registro modificado")
     else:
         showinfo("No", "No se modificara el registro")
@@ -180,13 +203,7 @@ boton_guardar = Button(
     aplicacion,
     text="Guardar",
     command=lambda: funcion_alta(
-        valor_cuenta.get(),
-        valor_reparto.get(),
-        valor_cliente.get(),
-        valor_razon.get(),
-        valor_direccion.get(),
-        valor_localidad.get(),
-        tree,
+        cuenta, reparto, numero_de_cliente, razonsocial, direccion, localidad, tree
     ),
 )
 boton_guardar.grid(row=7, column=1)
