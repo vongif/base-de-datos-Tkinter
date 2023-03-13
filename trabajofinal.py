@@ -111,19 +111,11 @@ def funcion_modificar(tree):
         mi_id = item["text"]
         con = base()
         cursor = con.cursor()
-        data = (mi_id,)
-        sql = "UPDATE clientes SET cuenta = ?;"
-        datos = cursor.execute(sql, data)
+        sql = f"UPDATE clientes SET cuenta = '{valor_cuenta.get()}', reparto = '{valor_reparto.get()}', numero_de_cliente = '{valor_cliente.get()}', razonsocial = '{valor_razon.get()}', direccion = '{valor_direccion.get()}', localidad = '{valor_localidad.get()}' WHERE cuenta = '{mi_id}';"
+        cursor.execute(sql)
         con.commit()
-        resultado = datos.fetchall()
-    for fila in resultado:
-        tree.insert(
-            valor_cuenta.get(),
-            valor_reparto.get(),
-            valor_cliente.get(),
-            valor_razon.get(),
-            valor_direccion.get(),
-            valor_localidad.get(),
+        funcion_alta(
+            cuenta, reparto, numero_de_cliente, razonsocial, direccion, localidad, tree
         )
         showinfo("Base Clientes", "Registro modificado")
     else:
@@ -134,11 +126,12 @@ aplicacion = Tk()
 
 titulo = Label(
     aplicacion,
-    text="Base Clientes",
-    bg="DarkOrchid3",
-    fg="thistle1",
+    text="BASE CLIENTES",
+    bg="Grey49",
+    fg="white",
     height=1,
-    width=60,
+    width=55,
+    font=("bold"),
 )
 titulo.grid(row=0, column=0, columnspan=7, padx=1, pady=1, sticky=W + E)
 
@@ -190,6 +183,7 @@ tree.column("col3", width=300, minwidth=80, anchor=W)
 tree.column("col4", width=300, minwidth=80, anchor=W)
 tree.column("col5", width=200, minwidth=80, anchor=W)
 
+
 tree.heading("#0", text="Cuenta")
 tree.heading("col1", text="Reparto")
 tree.heading("col2", text="Numero de Cliente")
@@ -197,22 +191,36 @@ tree.heading("col3", text="Razon Social")
 tree.heading("col4", text="Direccion")
 tree.heading("col5", text="Localidad")
 
-tree.grid(column=0, row=10, columnspan=4)
+tree.grid(column=0, row=10, columnspan=5)
 
 boton_guardar = Button(
     aplicacion,
     text="Guardar",
+    bg="Grey49",
+    fg="white",
     command=lambda: funcion_alta(
         cuenta, reparto, numero_de_cliente, razonsocial, direccion, localidad, tree
     ),
 )
 boton_guardar.grid(row=7, column=1)
-boton_borrar = Button(aplicacion, text="Eliminar", command=lambda: funcion_borrar(tree))
+boton_borrar = Button(
+    aplicacion,
+    text="Eliminar",
+    bg="Grey49",
+    fg="white",
+    command=lambda: funcion_borrar(tree),
+)
 boton_borrar.grid(row=8, column=1)
-boton_salir = Button(aplicacion, text="Salir", command=aplicacion.quit)
+boton_salir = Button(
+    aplicacion, text="Salir", bg="Grey49", fg="white", command=aplicacion.quit
+)
 boton_salir.grid(row=9, column=2)
 boton_modificar = Button(
-    aplicacion, text="Modificar", command=lambda: funcion_modificar(tree)
+    aplicacion,
+    text="Modificar",
+    bg="Grey49",
+    fg="white",
+    command=lambda: funcion_modificar(tree),
 )
 boton_modificar.grid(row=9, column=1)
 
