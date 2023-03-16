@@ -37,24 +37,37 @@ def funcion_alta(
     razonsocial = valor_razon.get()
     direccion = valor_direccion.get()
     localidad = valor_localidad.get()
-    con = base()
-    cursor = con.cursor()
-    data = (cuenta, reparto, numero_de_cliente, razonsocial, direccion, localidad)
-    sql = "INSERT INTO clientes(cuenta, reparto, numero_de_cliente, razonsocial, direccion, localidad) VALUES(?, ?, ?, ?, ?, ?)"
-    cursor.execute(sql, data)
-    con.commit()
-    tree.insert(
-        "",
-        "end",
-        values=(
-            valor_cuenta.get(),
-            valor_reparto.get(),
-            valor_cliente.get(),
-            valor_razon.get(),
-            valor_direccion.get(),
-            valor_localidad.get(),
-        ),
-    )
+    regex = valor_razon.get()
+    expresion = "[a-zA-Z0-9_]"
+    if re.match(expresion, regex):
+        Label(mensaje, text="Registro valido", font="Courier, 10", fg="blue2").place(
+            x=280, y=100
+        )
+        con = base()
+        cursor = con.cursor()
+        data = (cuenta, reparto, numero_de_cliente, razonsocial, direccion, localidad)
+        sql = "INSERT INTO clientes(cuenta, reparto, numero_de_cliente, razonsocial, direccion, localidad) VALUES(?, ?, ?, ?, ?, ?)"
+        cursor.execute(sql, data)
+        con.commit()
+        tree.insert(
+            "",
+            "end",
+            values=(
+                valor_cuenta.get(),
+                valor_reparto.get(),
+                valor_cliente.get(),
+                valor_razon.get(),
+                valor_direccion.get(),
+                valor_localidad.get(),
+            ),
+        )
+    else:
+        Label(
+            mensaje,
+            text="Invalido. Registro solo alfanumerico",
+            font="Courier, 10",
+            fg="red2",
+        ).place(x=280, y=100)
     actualizar(tree)
     limpiar_registro()
 
@@ -111,7 +124,7 @@ def funcion_modificar(tree):
         mi_id = item["text"]
         con = base()
         cursor = con.cursor()
-        sql = f"UPDATE clientes SET cuenta = '{valor_cuenta.get()}', reparto = '{valor_reparto.get()}', numero_de_cliente = '{valor_cliente.get()}', razonsocial = '{valor_razon.get()}', direccion = '{valor_direccion.get()}', localidad = '{valor_localidad.get()}' WHERE cuenta = '{mi_id}';"
+        sql = f"UPDATE clientes SET cuenta = '{valor_cuenta.get()}', reparto = '{valor_reparto.get()}', numero_de_cliente = '{valor_cliente.get()}', razonsocial = '{valor_razon.get()}', direccion = '{valor_direccion.get()}', localidad = '{valor_localidad.get()}' WHERE cuenta = '?';"
         cursor.execute(sql)
         con.commit()
         funcion_alta(
@@ -135,20 +148,25 @@ titulo = Label(
 )
 titulo.grid(row=0, column=0, columnspan=7, padx=1, pady=1, sticky=W + E)
 
-cuenta = Label(aplicacion, text="Cuenta")
+cuenta = Label(aplicacion, text="Cuenta :", fg="black", anchor="center")
 cuenta.grid(row=1, column=0, sticky=W)
-reparto = Label(aplicacion, text="Reparto")
+reparto = Label(aplicacion, text="Reparto :", fg="black", anchor="center")
 reparto.grid(row=2, column=0, sticky=W)
-numero_de_cliente = Label(aplicacion, text="Numero de Cliente")
+numero_de_cliente = Label(
+    aplicacion,
+    text="Numero de Cliente : ",
+    fg="black",
+    anchor="center",
+)
 numero_de_cliente.grid(row=3, column=0, sticky=W)
-razonsocial = Label(aplicacion, text="Razon Social")
+razonsocial = Label(aplicacion, text="Razon Social : ", fg="black", anchor="center")
 razonsocial.grid(row=4, column=0, sticky=W)
-direccion = Label(aplicacion, text="Direccion")
+direccion = Label(aplicacion, text="Direccion : ", fg="black", anchor="center")
 direccion.grid(row=5, column=0, sticky=W)
-localidad = Label(aplicacion, text="Localidad")
+localidad = Label(aplicacion, text="Localidad :", fg="black", anchor="center")
 localidad.grid(row=6, column=0, sticky=W)
 
-
+mensaje = ()
 valor_cuenta = IntVar()
 valor_reparto = IntVar()
 valor_cliente = IntVar()
@@ -156,18 +174,19 @@ valor_razon = StringVar()
 valor_direccion = StringVar()
 valor_localidad = StringVar()
 
+
 entry_cuenta = Entry(aplicacion, textvariable=valor_cuenta, width=15)
-entry_cuenta.grid(row=1, column=1)
+entry_cuenta.grid(row=1, column=0)
 entry_reparto = Entry(aplicacion, textvariable=valor_reparto, width=15)
-entry_reparto.grid(row=2, column=1)
+entry_reparto.grid(row=2, column=0)
 entry_numero_de_cliente = Entry(aplicacion, textvariable=valor_cliente, width=15)
-entry_numero_de_cliente.grid(row=3, column=1)
+entry_numero_de_cliente.grid(row=3, column=0)
 entry_razonsocial = Entry(aplicacion, textvariable=valor_razon, width=30)
-entry_razonsocial.grid(row=4, column=1)
+entry_razonsocial.grid(row=4, column=0)
 entry_direccion = Entry(aplicacion, textvariable=valor_direccion, width=30)
-entry_direccion.grid(row=5, column=1)
+entry_direccion.grid(row=5, column=0)
 entry_localidad = Entry(aplicacion, textvariable=valor_localidad, width=30)
-entry_localidad.grid(row=6, column=1)
+entry_localidad.grid(row=6, column=0)
 
 
 # -------------------------------------------------
@@ -175,6 +194,22 @@ entry_localidad.grid(row=6, column=1)
 # -------------------------------------------------
 
 tree = ttk.Treeview(aplicacion)
+
+aplicacion.geometry("1060x700")
+
+entrybusqueda = ttk.Entry(aplicacion)
+entrybusqueda.grid(row=9, column=0, padx=5, pady=5, ipady=3, ipadx=60)
+
+s = ttk.Style()
+s.theme_use("clam")
+s.configure("Treeview.Heading", background="Grey49")
+s.configure(
+    "Treeview",
+    background="grey74",
+    fieldbackground="grey74",
+    foreground="black",
+)
+
 tree["columns"] = ("col1", "col2", "col3", "col4", "col5")
 tree.column("#0", width=50, minwidth=0, anchor=W)
 tree.column("col1", width=50, minwidth=80, anchor=W)
@@ -191,37 +226,60 @@ tree.heading("col3", text="Razon Social")
 tree.heading("col4", text="Direccion")
 tree.heading("col5", text="Localidad")
 
-tree.grid(column=0, row=10, columnspan=5)
+tree.grid(column=0, row=20, columnspan=5, ipady=100)
 
 boton_guardar = Button(
     aplicacion,
-    text="Guardar",
+    text="Alta",
     bg="Grey49",
     fg="white",
+    padx=71,
+    pady=3,
     command=lambda: funcion_alta(
         cuenta, reparto, numero_de_cliente, razonsocial, direccion, localidad, tree
     ),
 )
-boton_guardar.grid(row=7, column=1)
+boton_guardar.grid(row=3, column=2)
 boton_borrar = Button(
     aplicacion,
     text="Eliminar",
     bg="Grey49",
     fg="white",
+    padx=60,
+    pady=3,
     command=lambda: funcion_borrar(tree),
 )
-boton_borrar.grid(row=8, column=1)
+boton_borrar.grid(row=4, column=2)
 boton_salir = Button(
-    aplicacion, text="Salir", bg="Grey49", fg="white", command=aplicacion.quit
+    aplicacion,
+    text="Salir",
+    bg="Grey49",
+    fg="white",
+    padx=60,
+    pady=3,
+    command=aplicacion.quit,
 )
-boton_salir.grid(row=9, column=2)
+boton_salir.grid(row=7, column=3)
 boton_modificar = Button(
     aplicacion,
     text="Modificar",
     bg="Grey49",
     fg="white",
+    padx=56,
+    pady=3,
     command=lambda: funcion_modificar(tree),
 )
-boton_modificar.grid(row=9, column=1)
+boton_modificar.grid(row=5, column=2)
+boton_actualizar = Button(
+    aplicacion,
+    text="Actualizar",
+    bg="Grey49",
+    fg="white",
+    padx=56,
+    pady=3,
+    command=lambda: actualizar(tree),
+)
+boton_actualizar.grid(row=6, column=2)
+
 
 aplicacion.mainloop()
