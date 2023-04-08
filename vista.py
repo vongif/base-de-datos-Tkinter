@@ -9,14 +9,7 @@ from tkinter import messagebox, filedialog
 import tkinter as tk
 
 
-
-# -------------------------------------------------------------------------------
-# AUTOR CALIQUIS CRISTIAN
-# ------------------------------------------------------------------------------
-
-
 aplicacion = Tk()
-
 
 valor_cuenta = IntVar()
 valor_reparto = IntVar()
