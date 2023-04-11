@@ -15,6 +15,7 @@ valor_sucursal = IntVar()
 valor_razon = StringVar()
 valor_direccion = StringVar()
 valor_localidad = StringVar()
+valor_busqueda = StringVar()
 
 
 titulo = Label(
@@ -68,7 +69,7 @@ entry_direccion = Entry(aplicacion, textvariable=valor_direccion, width=30)
 entry_direccion.grid(row=5, column=0)
 entry_localidad = Entry(aplicacion, textvariable=valor_localidad, width=30)
 entry_localidad.grid(row=6, column=0)
-entrybusqueda = ttk.Entry(aplicacion)
+entrybusqueda = ttk.Entry(aplicacion, textvariable=valor_busqueda)
 entrybusqueda.grid(row=9, column=0, padx=55, pady=8, ipady=3, ipadx=60)
 
 
@@ -149,10 +150,12 @@ def aviso_alta(
         valor_localidad,
         tree,
     )
-    showinfo(retorno)
-    # Label(aplicacion, text="Registro valido", font="Courier, 10", fg="blue2").place(
-    #    x=280, y=100
-    # )
+    if messagebox.showinfo("Base Clientes", retorno):
+        Label(aplicacion, text="Registro valido", font="Courier, 10", fg="blue2").place(
+            x=280, y=100
+        )
+    else:
+        messagebox.showinfo("Base Clientes", retorno)
 
 
 boton_alta = Button(
@@ -181,7 +184,7 @@ def aviso_borrar(tree):
     # Label(
     # aplicacion, text="Registro Eliminado", font="Courier, 15", fg="blue2"
     # ).place(x=400, y=220)
-    showinfo(retorno)
+    messagebox.showinfo("Base Clientes", retorno)
     # Label(
     #        aplicacion, text="Registro No Eliminado", font="Courier, 15", fg="blue2"
     #    ).place(x=400, y=220)
@@ -207,6 +210,31 @@ boton_salir = Button(
     command=aplicacion.quit,
 )
 boton_salir.grid(row=7, column=3)
+
+
+def aviso_modificar(
+    valor_cuenta,
+    valor_reparto,
+    valor_cliente,
+    valor_sucursal,
+    valor_razon,
+    valor_direccion,
+    valor_localidad,
+    tree,
+):
+    retorno = modelo.funcion_modificar(
+        valor_cuenta,
+        valor_reparto,
+        valor_cliente,
+        valor_sucursal,
+        valor_razon,
+        valor_direccion,
+        valor_localidad,
+        tree,
+    )
+    messagebox.showinfo("Base Clientes", retorno)
+
+
 boton_modificar = Button(
     aplicacion,
     text="Modificar",
@@ -214,7 +242,16 @@ boton_modificar = Button(
     fg="white",
     padx=56,
     pady=3,
-    command=lambda: modelo.funcion_modificar(tree),
+    command=lambda: aviso_modificar(
+        valor_cuenta,
+        valor_reparto,
+        valor_cliente,
+        valor_sucursal,
+        valor_razon,
+        valor_direccion,
+        valor_localidad,
+        tree,
+    ),
 )
 boton_modificar.grid(row=5, column=2)
 boton_actualizar = Button(
@@ -234,7 +271,7 @@ boton_buscar = Button(
     text="Buscar",
     bg="Grey49",
     fg="white",
-    command=lambda: modelo.funcion_buscar(tree),
+    command=lambda: modelo.funcion_buscar(valor_busqueda, tree),
 )
 boton_buscar.grid(row=9, column=0, padx=17, pady=8, ipady=1, ipadx=10, sticky=W)
 
@@ -246,7 +283,7 @@ boton_imprimir = Button(
     fg="white",
     padx=56,
     pady=3,
-    command=lambda: modelo.funcion_imprimir(),
+    command=lambda: modelo.funcion_imprimir(tree),
 )
 boton_imprimir.grid(row=4, column=3)
 
