@@ -1,7 +1,9 @@
 import sqlite3
 import re
-import csv
-import os
+
+# import csv
+# import os
+
 
 my_data = (
     []
@@ -30,7 +32,7 @@ except:
 # Funciones CRUD-------------------------------------------------------------------------
 
 
-def actualizar(tree):
+def funcion_actualizar(tree):
 
     records = tree.get_children()
     global my_data
@@ -85,7 +87,7 @@ def funcion_alta(
         sql = "INSERT INTO clientes(cuenta, reparto, numero_de_cliente, sucursal, razonsocial, direccion, localidad) VALUES(?, ?, ?, ?, ?, ?, ?)"
         cursor.execute(sql, data)
         con.commit()
-        actualizar(tree)
+        funcion_actualizar(tree)
         cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
             ""
         ), razonsocial.set(""), direccion.set(""), localidad.set("")
@@ -135,7 +137,7 @@ def funcion_modificar(
     sql = f"UPDATE clientes SET cuenta = '{cuenta.get()}', reparto = '{reparto.get()}', numero_de_cliente = '{numero_de_cliente.get()}', sucursal = '{sucursal.get()}', razonsocial = '{razonsocial.get()}', direccion = '{direccion.get()}', localidad = '{localidad.get()}' WHERE cuenta = '{mi_id}';"
     cursor.execute(sql)
     con.commit()
-    actualizar(tree)
+    funcion_actualizar(tree)
     cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
         ""
     ), razonsocial.set(""), direccion.set(""), localidad.set("")
