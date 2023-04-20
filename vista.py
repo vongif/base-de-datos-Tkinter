@@ -6,19 +6,19 @@ from tkinter import ttk
 from tkinter import Button
 from tkinter import messagebox
 import tkinter as tk
-from modelo import base
-from modelo import crear_tabla
-from modelo import funcion_actualizar
-from modelo import funcion_alta
-from modelo import funcion_borrar
-from modelo import funcion_modificar
-from modelo import funcion_buscar
-from modelo import funcion_imprimir
+from modelo import CreacionDeDatos
+from modelo import ConexionBaseDeDatos
+from modelo import Alta
+from modelo import Actualizar
+from modelo import Borrar
+from modelo import Modificar
+from modelo import Buscar
+from modelo import Imprimir
 
 
 def vista_principal(aplicacion):
 
-    #aplicacion = Tk()
+    # aplicacion = Tk()
 
     valor_cuenta = IntVar()
     valor_reparto = IntVar()
@@ -29,35 +29,33 @@ def vista_principal(aplicacion):
     valor_localidad = StringVar()
     valor_busqueda = StringVar()
 
-
     titulo = Label(
-    aplicacion,
-    text="BASE CLIENTES",
-    bg="Grey49",
-    fg="white",
-    height=1,
-    width=55,
-    font=("bold"),
+        aplicacion,
+        text="BASE CLIENTES",
+        bg="Grey49",
+        fg="white",
+        height=1,
+        width=55,
+        font=("bold"),
     )
     titulo.grid(row=0, column=0, columnspan=7, padx=1, pady=1, sticky="w" + "e")
-
 
     cuenta = Label(aplicacion, text="Cuenta :", fg="black", anchor="center")
     cuenta.grid(row=1, column=0, sticky="w")
     reparto = Label(aplicacion, text="Reparto :", fg="black", anchor="center")
     reparto.grid(row=2, column=0, sticky="w")
     numero_de_cliente = Label(
-    aplicacion,
-    text="Numero de Cliente : ",
-    fg="black",
-    anchor="center",
+        aplicacion,
+        text="Numero de Cliente : ",
+        fg="black",
+        anchor="center",
     )
     numero_de_cliente.grid(row=3, column=0, sticky="w")
     sucursal = Label(
-    aplicacion,
-    text="Sucursal:",
-    fg="black",
-    anchor="center",
+        aplicacion,
+        text="Sucursal:",
+        fg="black",
+        anchor="center",
     )
     sucursal.grid(row=3, column=0, sticky="e")
     razonsocial = Label(aplicacion, text="Razon Social : ", fg="black", anchor="center")
@@ -84,11 +82,9 @@ def vista_principal(aplicacion):
     entrybusqueda = ttk.Entry(aplicacion, textvariable=valor_busqueda)
     entrybusqueda.grid(row=9, column=0, padx=55, pady=8, ipady=3, ipadx=60)
 
-
     # -------------------------------------------------
     # TREEVIEW
     # -------------------------------------------------
-
 
     tree = ttk.Treeview(aplicacion)
 
@@ -99,26 +95,24 @@ def vista_principal(aplicacion):
     tree.config(yscrollcommand=scroll.set)
     scroll.config(command=tree.yview)
 
-
     s = ttk.Style()
     s.theme_use("clam")
     s.configure("Treeview.Heading", background="Grey49", bg="white", fg="white")
     s.configure(
-    "Treeview",
-    background="grey74",
-    fieldbackground="grey74",
-    foreground="black",
+        "Treeview",
+        background="grey74",
+        fieldbackground="grey74",
+        foreground="black",
     )
     s.configure(
-    "Vertical.TScrollbar",
-    gripcount=6,
-    background="White",
-    darkcolor="Black",
-    troughcolor="gray78",
-    bordercolor="Black",
-    arrowcolor="gray36",
+        "Vertical.TScrollbar",
+        gripcount=6,
+        background="White",
+        darkcolor="Black",
+        troughcolor="gray78",
+        bordercolor="Black",
+        arrowcolor="gray36",
     )
-
 
     tree["columns"] = ("col1", "col2", "col3", "col4", "col5", "col6")
     tree.column("#0", width=50, minwidth=80, anchor="center")
@@ -140,17 +134,6 @@ def vista_principal(aplicacion):
     tree.grid(column=0, row=20, columnspan=5, ipady=100)
 
     def aviso_alta(
-    valor_cuenta,
-    valor_reparto,
-    valor_cliente,
-    valor_sucursal,
-    valor_razon,
-    valor_direccion,
-    valor_localidad,
-    tree,
-    ):
-
-        retorno = funcion_alta(
         valor_cuenta,
         valor_reparto,
         valor_cliente,
@@ -159,38 +142,47 @@ def vista_principal(aplicacion):
         valor_direccion,
         valor_localidad,
         tree,
+    ):
+
+        retorno = Alta(
+            valor_cuenta,
+            valor_reparto,
+            valor_cliente,
+            valor_sucursal,
+            valor_razon,
+            valor_direccion,
+            valor_localidad,
+            tree,
         )
         if messagebox.showinfo("Base Clientes", retorno):
-            Label(aplicacion, text="Registro valido", font="Courier, 10", fg="blue2").place(
-            x=280, y=100
-            )
+            Label(
+                aplicacion, text="Registro valido", font="Courier, 10", fg="blue2"
+            ).place(x=280, y=100)
         else:
             messagebox.showinfo("Base Clientes", retorno)
 
-
     boton_alta = Button(
-    aplicacion,
-    text="Alta",
-    bg="Grey49",
-    fg="white",
-    padx=71,
-    pady=3,
-    command=lambda: aviso_alta(
-    valor_cuenta,
-    valor_reparto,
-    valor_cliente,
-    valor_sucursal,
-    valor_razon,
-    valor_direccion,
-    valor_localidad,
-    tree,
-    ),
+        aplicacion,
+        text="Alta",
+        bg="Grey49",
+        fg="white",
+        padx=71,
+        pady=3,
+        command=lambda: aviso_alta(
+            valor_cuenta,
+            valor_reparto,
+            valor_cliente,
+            valor_sucursal,
+            valor_razon,
+            valor_direccion,
+            valor_localidad,
+            tree,
+        ),
     )
     boton_alta.grid(row=3, column=2)
 
-
     def aviso_borrar(tree):
-        retorno = funcion_borrar(tree)
+        retorno = Borrar(tree)
         # Label(
         # aplicacion, text="Registro Eliminado", font="Courier, 15", fg="blue2"
         # ).place(x=400, y=220)
@@ -199,28 +191,26 @@ def vista_principal(aplicacion):
         #        aplicacion, text="Registro No Eliminado", font="Courier, 15", fg="blue2"
         #    ).place(x=400, y=220)
 
-
     boton_borrar = Button(
-    aplicacion,
-    text="Eliminar",
-    bg="Grey49",
-    fg="white",
-    padx=60,
-    pady=3,
-    command=lambda: aviso_borrar(tree),
+        aplicacion,
+        text="Eliminar",
+        bg="Grey49",
+        fg="white",
+        padx=60,
+        pady=3,
+        command=lambda: aviso_borrar(tree),
     )
     boton_borrar.grid(row=4, column=2)
     boton_salir = Button(
-    aplicacion,
-    text="Salir",
-    bg="Grey49",
-    fg="white",
-    padx=60,
-    pady=3,
-    command=aplicacion.quit,
+        aplicacion,
+        text="Salir",
+        bg="Grey49",
+        fg="white",
+        padx=60,
+        pady=3,
+        command=aplicacion.quit,
     )
     boton_salir.grid(row=7, column=3)
-
 
     def aviso_modificar(
         valor_cuenta,
@@ -231,71 +221,67 @@ def vista_principal(aplicacion):
         valor_direccion,
         valor_localidad,
         tree,
-        ):
-        retorno = funcion_modificar(
-        valor_cuenta,
-        valor_reparto,
-        valor_cliente,
-        valor_sucursal,
-        valor_razon,
-        valor_direccion,
-        valor_localidad,
-        tree,
+    ):
+        retorno = Modificar(
+            valor_cuenta,
+            valor_reparto,
+            valor_cliente,
+            valor_sucursal,
+            valor_razon,
+            valor_direccion,
+            valor_localidad,
+            tree,
         )
         messagebox.showinfo("Base Clientes", retorno)
 
-
     boton_modificar = Button(
-    aplicacion,
-    text="Modificar",
-    bg="Grey49",
-    fg="white",
-    padx=56,
-    pady=3,
-    command=lambda: aviso_modificar(
-    valor_cuenta,
-    valor_reparto,
-    valor_cliente,
-    valor_sucursal,
-    valor_razon,
-    valor_direccion,
-    valor_localidad,
-    tree,
-    ),
+        aplicacion,
+        text="Modificar",
+        bg="Grey49",
+        fg="white",
+        padx=56,
+        pady=3,
+        command=lambda: aviso_modificar(
+            valor_cuenta,
+            valor_reparto,
+            valor_cliente,
+            valor_sucursal,
+            valor_razon,
+            valor_direccion,
+            valor_localidad,
+            tree,
+        ),
     )
     boton_modificar.grid(row=5, column=2)
     boton_actualizar = Button(
-    aplicacion,
-    text="Actualizar",
-    bg="Grey49",
-    fg="white",
-    padx=56,
-    pady=3,
-    command=lambda: funcion_actualizar(tree),
+        aplicacion,
+        text="Actualizar",
+        bg="Grey49",
+        fg="white",
+        padx=56,
+        pady=3,
+        command=lambda: Actualizar(tree),
     )
     boton_actualizar.grid(row=6, column=2)
 
-
     boton_buscar = Button(
-    aplicacion,
-    text="Buscar",
-    bg="Grey49",
-    fg="white",
-    command=lambda: funcion_buscar(valor_busqueda, tree),
+        aplicacion,
+        text="Buscar",
+        bg="Grey49",
+        fg="white",
+        command=lambda: Buscar(valor_busqueda, tree),
     )
     boton_buscar.grid(row=9, column=0, padx=17, pady=8, ipady=1, ipadx=10, sticky="w")
 
-
     boton_imprimir = Button(
-    aplicacion,
-    text="Exportar Archivo",
-    bg="Grey49",
-    fg="white",
-    padx=56,
-    pady=3,
-    command=lambda: funcion_imprimir(tree),
+        aplicacion,
+        text="Exportar Archivo",
+        bg="Grey49",
+        fg="white",
+        padx=56,
+        pady=3,
+        command=lambda: Imprimir(tree),
     )
     boton_imprimir.grid(row=4, column=3)
 
-
-    #aplicacion.mainloop()
+    # aplicacion.mainloop()

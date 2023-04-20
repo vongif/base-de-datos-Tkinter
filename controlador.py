@@ -7,5 +7,3 @@ if __name__ == "__main__":
     aplicacion = Tk()
     vista.vista_principal(aplicacion)
     aplicacion.mainloop()
-
-
