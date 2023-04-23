@@ -5,7 +5,7 @@ import re
 # import os
 
 
-class operaciones():
+class operaciones:
     def __init__(self):
         try:
             con = sqlite3.connect("base_ejemplo.db")
@@ -16,16 +16,14 @@ class operaciones():
         except:
             print("Hay un error")
 
+
     def conexion(
         self,
     ):
         con = sqlite3.connect("base_ejemplo.db")
         return con
 
-    my_data = (
-        []
-    )  # variable global que me permite en la funcion_imprimir(), pasar el string de datos del treeview
-
+        
     # Funciones CRUD-------------------------------------------------------------------------
 
     def funcion_alta(
@@ -39,7 +37,6 @@ class operaciones():
         localidad,
         tree,
     ):
-
         regex = razonsocial.get()
         expresion = "[a-zA-ZÀ-ÿ(0-9)]"
         if re.match(expresion, regex):
@@ -60,6 +57,7 @@ class operaciones():
             sql = "INSERT INTO clientes(cuenta, reparto, numero_de_cliente, sucursal, razonsocial, direccion, localidad) VALUES(?, ?, ?, ?, ?, ?, ?)"
             cursor.execute(sql, data)
             con.commit()
+            self.funcion_actualizar(tree)
             cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
                 ""
             ), razonsocial.set(""), direccion.set(""), localidad.set("")
@@ -67,6 +65,7 @@ class operaciones():
         else:
             return ("Error", "No se creo el registro")
 
+ 
     def funcion_actualizar(self, tree):
 
         records = tree.get_children()
@@ -86,6 +85,8 @@ class operaciones():
                 text=fila[0],
                 values=(fila[1], fila[2], fila[3], fila[4], fila[5], fila[6]),
             )
+
+
 
     # ----------------------------------------------------------------------------------------
 
@@ -126,7 +127,7 @@ class operaciones():
         sql = f"UPDATE clientes SET cuenta = '{cuenta.get()}', reparto = '{reparto.get()}', numero_de_cliente = '{numero_de_cliente.get()}', sucursal = '{sucursal.get()}', razonsocial = '{razonsocial.get()}', direccion = '{direccion.get()}', localidad = '{localidad.get()}' WHERE cuenta = '{mi_id}';"
         cursor.execute(sql)
         con.commit()
-        self.funcion_actualizar(self, tree)
+        self.funcion_actualizar(tree)
         cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
             ""
         ), razonsocial.set(""), direccion.set(""), localidad.set("")
@@ -160,21 +161,5 @@ class operaciones():
                 item = tree.item(item_id)
         print(item["text"], item["values"], file=f)
 
-        # genera archivo CSV----------------------------------------------
-        """
-        if len(my_data) < 1:
-            #showwarning("Base Clientes", "El archivo no fue exportado")
-            return False
-        fln = filedialog.asksaveasfilename(
-            initialdir=os.getcwd(),
-            title="Archivo CSV",
-            filetypes=(("CVS Archivo", ".csv"), ("All files", ".*")),
-        )
-        with open(fln, mode="w") as myfile:
-            exp_writer = csv.writer(myfile, delimiter=",")
-            for i in my_data:
-                exp_writer.writerow(i)
-        messagebox.showinfo(
-            "Archivo Exportado",
-            "El archivo " + os.path.basename(fln) + " se exporto correctamente.",
-        )"""
+      
+        
