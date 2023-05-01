@@ -16,14 +16,12 @@ class operaciones:
         except:
             print("Hay un error")
 
-
     def conexion(
         self,
     ):
         con = sqlite3.connect("base_ejemplo.db")
         return con
 
-        
     # Funciones CRUD-------------------------------------------------------------------------
 
     def funcion_alta(
@@ -65,7 +63,6 @@ class operaciones:
         else:
             return ("Error", "No se creo el registro")
 
- 
     def funcion_actualizar(self, tree):
 
         records = tree.get_children()
@@ -85,8 +82,6 @@ class operaciones:
                 text=fila[0],
                 values=(fila[1], fila[2], fila[3], fila[4], fila[5], fila[6]),
             )
-
-
 
     # ----------------------------------------------------------------------------------------
 
@@ -160,6 +155,3 @@ class operaciones:
             for item_id in tree.get_children():
                 item = tree.item(item_id)
         print(item["text"], item["values"], file=f)
-
-      
-        

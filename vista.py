@@ -155,6 +155,8 @@ class Ventana:
         self.tree.heading("col5", text="Direccion")
         self.tree.heading("col6", text="Localidad")
 
+        self.tree.bind("<<TreeviewSelect>>", self.seleccion, add=True)
+
         self.tree.grid(column=0, row=20, columnspan=5, ipady=100)
         self.boton_alta = Button(
             self.aplicacion,
@@ -292,6 +294,27 @@ class Ventana:
         #        aplicacion, text="Registro No Eliminado", font="Courier, 15", fg="blue2"
         #    ).place(x=400, y=220)
 
+    def seleccion(self, a):
+        self.valor_cuenta.set("")
+        self.valor_reparto.set("")
+        self.valor_cliente.set("")
+        self.valor_sucursal.set("")
+        self.valor_razon.set("")
+        self.valor_direccion.set("")
+        self.valor_localidad.set("")
+        dato = self.tree.focus()
+        item = dict(self.tree.item(dato))
+        #try:
+        self.valor_cuenta.set(item.get("values")[0])
+        self.valor_reparto.set(item.get("values")[0])
+        self.valor_cliente.set(item.get("values")[1])
+        self.valor_sucursal.set(item.get("values")[2])
+        self.valor_razon.set(item.get("values")[3])
+        self.valor_direccion.set(item.get("values")[4])
+        self.valor_localidad.set(item.get("values")[5])
+        #except:
+        #    pass
+
     def aviso_modificar(
         self,
         valor_cuenta,
@@ -315,6 +338,7 @@ class Ventana:
         )
         messagebox.showinfo("Base Clientes", retorno)
 
+    
 
 if __name__ == "__main__":
 
