@@ -1,13 +1,38 @@
 import sqlite3
 import re
+from peewee import *
 
 # import csv
 # import os
 
 
+db = SqliteDatabase("base_ejemplo.db")
+
+
+class BaseModel(Model):
+    class Meta:
+        database = db
+
+
+class Clientes(BaseModel):
+    cuenta = IntegerField()
+    reparto = IntegerField()
+    numero_de_cliente = IntegerField()
+    sucursal = IntegerField()
+    razonsocial = CharField()
+    direccion = CharField()
+    localidad = CharField()
+
+
+db.connect()
+db.create_tables([Clientes])
+
+
 class operaciones:
     def __init__(self):
-        try:
+        pass
+
+    """    try:
             con = sqlite3.connect("base_ejemplo.db")
             cursor = con.cursor()
             sql = "CREATE TABLE clientes (cuenta INTERGER, reparto INTERGER, numero_de_cliente INTERGER PRIMARY KEY, sucursal INTERGER, razonsocial VARCHAR, direccion VARCHAR, localidad VARCHAR)"
@@ -21,6 +46,7 @@ class operaciones:
     ):
         con = sqlite3.connect("base_ejemplo.db")
         return con
+    """
 
     # Funciones CRUD-------------------------------------------------------------------------
 
@@ -38,7 +64,18 @@ class operaciones:
         regex = razonsocial.get()
         expresion = "[a-zA-ZÀ-ÿ(0-9)]"
         if re.match(expresion, regex):
-            # Label(
+
+            clientes = Clientes()
+            clientes.cuenta = cuenta.get()
+            clientes.reparto = reparto.get()
+            clientes.numero_de_cliente = numero_de_cliente.get()
+            clientes.sucursal = sucursal.get()
+            clientes.razonsocial = razonsocial.get()
+            clientes.direccion = direccion.get()
+            clientes.localidad = localidad.get()
+            clientes.save()
+
+            """# Label(
             #    aplicacion, text="Registro valido", font="Courier, 10", fg="blue2"
             # ).place(x=280, y=100)
             con = self.conexion()
@@ -55,6 +92,7 @@ class operaciones:
             sql = "INSERT INTO clientes(cuenta, reparto, numero_de_cliente, sucursal, razonsocial, direccion, localidad) VALUES(?, ?, ?, ?, ?, ?, ?)"
             cursor.execute(sql, data)
             con.commit()
+            """
             self.funcion_actualizar(tree)
             cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
                 ""
@@ -69,35 +107,47 @@ class operaciones:
         global my_data
         for element in records:
             tree.delete(element)
+        """   
         sql = "SELECT * FROM clientes ORDER BY cuenta ASC"
         con = self.conexion()
         cursor = con.cursor()
         datos = cursor.execute(sql)
         my_data = datos.fetchall()
-        for fila in my_data:
-            print(fila)
+        """
+        for fila in Clientes.select():
             tree.insert(
                 "",
                 "end",
-                text=fila[0],
-                values=(fila[1], fila[2], fila[3], fila[4], fila[5], fila[6]),
+                text=fila.id,
+                values=(
+                    fila.cuenta,
+                    fila.reparto,
+                    fila.numero_de_cliente,
+                    fila.sucursal,
+                    fila.razonsocial,
+                    fila.direccion,
+                    fila.localidad,
+                ),
             )
 
     # ----------------------------------------------------------------------------------------
-
+    
     def funcion_borrar(self, tree):
         cliente = tree.selection()
         item = tree.item(cliente)
-        print(item)
-        print(item["text"])
         mi_id = item["text"]
-        con = self.conexion()
+        borrar = Clientes.get(Clientes.id == mi_id)
+        borrar.delete_instance()
+        
+        self.funcion_actualizar(tree)
+        
+        """con = self.conexion()
         cursor = con.cursor()
         data = (mi_id,)
         tree.delete(cliente)
         sql = "DELETE FROM clientes WHERE cuenta = ?;"
         cursor.execute(sql, data)
-        con.commit()
+        con.commit()"""
 
         return "Registro eliminado"
 
@@ -117,17 +167,20 @@ class operaciones:
         cliente = tree.selection()
         item = tree.item(cliente)
         mi_id = item["text"]
-        con = self.conexion()
+        actualizar = Clientes.update(cuenta=cuenta.get(), reparto=reparto.get(), numero_de_cliente=numero_de_cliente.get(), sucursal=sucursal.get(), razonsocial=razonsocial.get(), direccion=direccion.get(), localidad=localidad.get()).where(Clientes.id == mi_id)
+        actualizar.execute() 
+
+        """con = self.conexion()
         cursor = con.cursor()
         sql = f"UPDATE clientes SET cuenta = '{cuenta.get()}', reparto = '{reparto.get()}', numero_de_cliente = '{numero_de_cliente.get()}', sucursal = '{sucursal.get()}', razonsocial = '{razonsocial.get()}', direccion = '{direccion.get()}', localidad = '{localidad.get()}' WHERE cuenta = '{mi_id}';"
         cursor.execute(sql)
-        con.commit()
+        con.commit()"""
         self.funcion_actualizar(tree)
         cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
             ""
         ), razonsocial.set(""), direccion.set(""), localidad.set("")
         return "Registro modificado"
-
+    """
     # -----------------------------------------------------------------------------------------------------------
 
     def funcion_buscar(self, busqueda, tree):
@@ -155,3 +208,6 @@ class operaciones:
             for item_id in tree.get_children():
                 item = tree.item(item_id)
         print(item["text"], item["values"], file=f)
+
+
+"""

@@ -110,10 +110,10 @@ class Ventana:
 
         self.tree = ttk.Treeview(self.aplicacion)
 
-        self.aplicacion.geometry("1125x700")
+        self.aplicacion.geometry("950x700")
 
         self.scroll = ttk.Scrollbar(self.aplicacion)
-        self.scroll.place(x=1100, y=285, height=405, width=25)
+        self.scroll.place(x=920, y=270, height=420, width=25)
         self.tree.config(yscrollcommand=self.scroll.set)
         self.scroll.config(command=self.tree.yview)
 
@@ -138,22 +138,24 @@ class Ventana:
             arrowcolor="gray36",
         )
 
-        self.tree["columns"] = ("col1", "col2", "col3", "col4", "col5", "col6")
-        self.tree.column("#0", width=50, minwidth=80, anchor="center")
-        self.tree.column("col1", width=50, minwidth=80, anchor="center")
-        self.tree.column("col2", width=130, minwidth=80, anchor="center")
-        self.tree.column("col3", width=50, minwidth=80, anchor="center")
-        self.tree.column("col4", width=300, minwidth=80, anchor="w")
-        self.tree.column("col5", width=290, minwidth=80, anchor="w")
-        self.tree.column("col6", width=230, minwidth=80, anchor="w")
-
-        self.tree.heading("#0", text="Cuenta")
-        self.tree.heading("col1", text="Reparto")
-        self.tree.heading("col2", text="Numero de Cliente")
-        self.tree.heading("col3", text="Sucursal")
-        self.tree.heading("col4", text="Razon Social")
-        self.tree.heading("col5", text="Direccion")
-        self.tree.heading("col6", text="Localidad")
+        self.tree["columns"] = ("col1", "col2", "col3", "col4", "col5", "col6", "col7")
+        self.tree.column("#0", width=30, minwidth=80, anchor="center")
+        self.tree.column("col1", width=40, minwidth=80, anchor="center")
+        self.tree.column("col2", width=40, minwidth=80, anchor="center")
+        self.tree.column("col3", width=70, minwidth=80, anchor="center")
+        self.tree.column("col4", width=40, minwidth=80, anchor="center")
+        self.tree.column("col5", width=200, minwidth=80, anchor="w")
+        self.tree.column("col6", width=250, minwidth=80, anchor="w")
+        self.tree.column("col7", width=250, minwidth=200, anchor="w")
+        
+        self.tree.heading("#0", text="ID")
+        self.tree.heading("col1", text="Cuenta")
+        self.tree.heading("col2", text="Reparto")
+        self.tree.heading("col3", text="Nº de Cliente")
+        self.tree.heading("col4", text="Sucursal")
+        self.tree.heading("col5", text="Razon Social")
+        self.tree.heading("col6", text="Direccion")
+        self.tree.heading("col7", text="Localidad")
 
         self.tree.bind("<<TreeviewSelect>>", self.seleccion, add=True)
 
@@ -217,6 +219,7 @@ class Ventana:
         )
 
         self.boton_modificar.grid(row=5, column=2)
+        
         self.boton_actualizar = Button(
             self.aplicacion,
             text="Actualizar",
@@ -226,9 +229,8 @@ class Ventana:
             pady=3,
             command=lambda: self.objeto_uno.funcion_actualizar(self.tree),
         )
-
         self.boton_actualizar.grid(row=6, column=2)
-
+        """
         self.boton_buscar = Button(
             self.aplicacion,
             text="Buscar",
@@ -252,29 +254,19 @@ class Ventana:
             command=lambda: self.objeto_uno.funcion_imprimir(self.tree),
         )
         self.boton_imprimir.grid(row=4, column=3)
+          """
 
     # METODOS-----------------------------------------------------------
 
-    def aviso_alta(
-        self,
-        valor_cuenta,
-        valor_reparto,
-        valor_cliente,
-        valor_sucursal,
-        valor_razon,
-        valor_direccion,
-        valor_localidad,
-        tree,
-    ):
-
+    def aviso_alta(self, valor_cuenta, valor_reparto, valor_cliente, valor_sucursal, valor_razon, valor_direccion, valor_localidad, tree):
         retorno = self.objeto_uno.funcion_alta(
-            valor_cuenta,
-            valor_reparto,
-            valor_cliente,
-            valor_sucursal,
-            valor_razon,
-            valor_direccion,
-            valor_localidad,
+            self.valor_cuenta,
+            self.valor_reparto,
+            self.valor_cliente,
+            self.valor_sucursal,
+            self.valor_razon,
+            self.valor_direccion,
+            self.valor_localidad,
             tree,
         )
         if messagebox.showinfo("Base Clientes", retorno):
@@ -284,6 +276,7 @@ class Ventana:
         else:
             messagebox.showinfo("Base Clientes", retorno)
 
+     
     def aviso_borrar(self, tree):
         retorno = self.objeto_uno.funcion_borrar(tree)
         # Label(
@@ -337,11 +330,18 @@ class Ventana:
             tree,
         )
         messagebox.showinfo("Base Clientes", retorno)
+      
 
-    
+        
+    def actualizar(
+        self,
+    ):
+        self.objeto_uno.funcion_actualizar(self.tree)
 
+"""
 if __name__ == "__main__":
 
     app = Tk()
     objeto1 = Ventana(app)
     app.mainloop()
+"""
