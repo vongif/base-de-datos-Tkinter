@@ -131,16 +131,16 @@ class operaciones:
             )
 
     # ----------------------------------------------------------------------------------------
-    
+
     def funcion_borrar(self, tree):
         cliente = tree.selection()
         item = tree.item(cliente)
         mi_id = item["text"]
         borrar = Clientes.get(Clientes.id == mi_id)
         borrar.delete_instance()
-        
+        print(borrar)
         self.funcion_actualizar(tree)
-        
+
         """con = self.conexion()
         cursor = con.cursor()
         data = (mi_id,)
@@ -167,8 +167,16 @@ class operaciones:
         cliente = tree.selection()
         item = tree.item(cliente)
         mi_id = item["text"]
-        actualizar = Clientes.update(cuenta=cuenta.get(), reparto=reparto.get(), numero_de_cliente=numero_de_cliente.get(), sucursal=sucursal.get(), razonsocial=razonsocial.get(), direccion=direccion.get(), localidad=localidad.get()).where(Clientes.id == mi_id)
-        actualizar.execute() 
+        actualizar = Clientes.update(
+            cuenta=cuenta.get(),
+            reparto=reparto.get(),
+            numero_de_cliente=numero_de_cliente.get(),
+            sucursal=sucursal.get(),
+            razonsocial=razonsocial.get(),
+            direccion=direccion.get(),
+            localidad=localidad.get(),
+        ).where(Clientes.id == mi_id)
+        actualizar.execute()
 
         """con = self.conexion()
         cursor = con.cursor()
@@ -180,11 +188,48 @@ class operaciones:
             ""
         ), razonsocial.set(""), direccion.set(""), localidad.set("")
         return "Registro modificado"
-    """
+
     # -----------------------------------------------------------------------------------------------------------
 
-    def funcion_buscar(self, busqueda, tree):
+    def funcion_buscar(
+        self,
+        tree,
+        busqueda,
+    ):
+        busqueda = busqueda.get()
         records = tree.get_children()
+        global my_data
+        for element in records:
+            tree.delete(element)
+        buscar = (
+            Clientes.select().where(Clientes.id % busqueda)
+            | Clientes.select().where(Clientes.cuenta % busqueda)
+            | Clientes.select().where(Clientes.reparto % busqueda)
+            | Clientes.select().where(Clientes.numero_de_cliente % busqueda)
+            | Clientes.select().where(Clientes.sucursal % busqueda)
+            | Clientes.select().where(Clientes.razonsocial % busqueda)
+            | Clientes.select().where(Clientes.direccion % busqueda)
+            | Clientes.select().where(Clientes.localidad % busqueda)
+        )
+        buscar.execute()
+        print(buscar)
+        for fila in buscar:
+            tree.insert(
+                "",
+                "end",
+                text=fila.id,
+                values=(
+                    fila.cuenta,
+                    fila.reparto,
+                    fila.numero_de_cliente,
+                    fila.sucursal,
+                    fila.razonsocial,
+                    fila.direccion,
+                    fila.localidad,
+                ),
+            )
+
+        """records = tree.get_children()
         global my_data
         for element in records:
             tree.delete(element)
@@ -192,7 +237,8 @@ class operaciones:
         con = self.conexion()
         cursor = con.cursor()
         datos = cursor.execute(sql)
-        my_data = datos.fetchall()
+        
+        #my_data = datos.fetchall()
         for fila in my_data:
             print(fila)
             tree.insert(
@@ -201,7 +247,9 @@ class operaciones:
                 text=fila[0],
                 values=(fila[1], fila[2], fila[3], fila[4], fila[5], fila[6]),
             )
+        """
 
+    """        
     def funcion_imprimir(self, tree):
         # codigo para generar un txt con resultado del treeview -------
         with open("pendientes.txt", "w") as f:

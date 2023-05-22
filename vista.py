@@ -100,9 +100,10 @@ class Ventana:
         )
         self.entry_localidad.grid(row=6, column=0)
         self.entrybusqueda = ttk.Entry(
-            self.aplicacion, textvariable=self.valor_busqueda
+            self.aplicacion,
+            textvariable=self.valor_busqueda,
         )
-        self.entrybusqueda.grid(row=9, column=0, padx=55, pady=8, ipady=3, ipadx=60)
+        self.entrybusqueda.grid(row=9, column=0, padx=70, pady=20, ipady=3, ipadx=60)
 
         # -------------------------------------------------
         # TREEVIEW
@@ -147,7 +148,7 @@ class Ventana:
         self.tree.column("col5", width=200, minwidth=80, anchor="w")
         self.tree.column("col6", width=250, minwidth=80, anchor="w")
         self.tree.column("col7", width=250, minwidth=200, anchor="w")
-        
+
         self.tree.heading("#0", text="ID")
         self.tree.heading("col1", text="Cuenta")
         self.tree.heading("col2", text="Reparto")
@@ -219,7 +220,7 @@ class Ventana:
         )
 
         self.boton_modificar.grid(row=5, column=2)
-        
+
         self.boton_actualizar = Button(
             self.aplicacion,
             text="Actualizar",
@@ -230,20 +231,21 @@ class Ventana:
             command=lambda: self.objeto_uno.funcion_actualizar(self.tree),
         )
         self.boton_actualizar.grid(row=6, column=2)
-        """
+
         self.boton_buscar = Button(
             self.aplicacion,
             text="Buscar",
             bg="Grey49",
             fg="white",
             command=lambda: self.objeto_uno.funcion_buscar(
-                self.valor_busqueda, self.tree
+                self.tree,
+                self.valor_busqueda,
             ),
         )
         self.boton_buscar.grid(
             row=9, column=0, padx=17, pady=8, ipady=1, ipadx=10, sticky="w"
         )
-
+        """
         self.boton_imprimir = Button(
             self.aplicacion,
             text="Exportar Archivo",
@@ -258,7 +260,17 @@ class Ventana:
 
     # METODOS-----------------------------------------------------------
 
-    def aviso_alta(self, valor_cuenta, valor_reparto, valor_cliente, valor_sucursal, valor_razon, valor_direccion, valor_localidad, tree):
+    def aviso_alta(
+        self,
+        valor_cuenta,
+        valor_reparto,
+        valor_cliente,
+        valor_sucursal,
+        valor_razon,
+        valor_direccion,
+        valor_localidad,
+        tree,
+    ):
         retorno = self.objeto_uno.funcion_alta(
             self.valor_cuenta,
             self.valor_reparto,
@@ -276,7 +288,6 @@ class Ventana:
         else:
             messagebox.showinfo("Base Clientes", retorno)
 
-     
     def aviso_borrar(self, tree):
         retorno = self.objeto_uno.funcion_borrar(tree)
         # Label(
@@ -297,7 +308,7 @@ class Ventana:
         self.valor_localidad.set("")
         dato = self.tree.focus()
         item = dict(self.tree.item(dato))
-        #try:
+        # try:
         self.valor_cuenta.set(item.get("values")[0])
         self.valor_reparto.set(item.get("values")[0])
         self.valor_cliente.set(item.get("values")[1])
@@ -305,7 +316,7 @@ class Ventana:
         self.valor_razon.set(item.get("values")[3])
         self.valor_direccion.set(item.get("values")[4])
         self.valor_localidad.set(item.get("values")[5])
-        #except:
+        # except:
         #    pass
 
     def aviso_modificar(
@@ -330,13 +341,12 @@ class Ventana:
             tree,
         )
         messagebox.showinfo("Base Clientes", retorno)
-      
 
-        
     def actualizar(
         self,
     ):
         self.objeto_uno.funcion_actualizar(self.tree)
+
 
 """
 if __name__ == "__main__":
