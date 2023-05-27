@@ -32,22 +32,6 @@ class operaciones:
     def __init__(self):
         pass
 
-    """    try:
-            con = sqlite3.connect("base_ejemplo.db")
-            cursor = con.cursor()
-            sql = "CREATE TABLE clientes (cuenta INTERGER, reparto INTERGER, numero_de_cliente INTERGER PRIMARY KEY, sucursal INTERGER, razonsocial VARCHAR, direccion VARCHAR, localidad VARCHAR)"
-            cursor.execute(sql)
-            con.commit()
-        except:
-            print("Hay un error")
-
-    def conexion(
-        self,
-    ):
-        con = sqlite3.connect("base_ejemplo.db")
-        return con
-    """
-
     # Funciones CRUD-------------------------------------------------------------------------
 
     def funcion_alta(
@@ -74,25 +58,6 @@ class operaciones:
             clientes.direccion = direccion.get()
             clientes.localidad = localidad.get()
             clientes.save()
-
-            """# Label(
-            #    aplicacion, text="Registro valido", font="Courier, 10", fg="blue2"
-            # ).place(x=280, y=100)
-            con = self.conexion()
-            cursor = con.cursor()
-            data = (
-                cuenta.get(),
-                reparto.get(),
-                numero_de_cliente.get(),
-                sucursal.get(),
-                razonsocial.get(),
-                direccion.get(),
-                localidad.get(),
-            )
-            sql = "INSERT INTO clientes(cuenta, reparto, numero_de_cliente, sucursal, razonsocial, direccion, localidad) VALUES(?, ?, ?, ?, ?, ?, ?)"
-            cursor.execute(sql, data)
-            con.commit()
-            """
             self.funcion_actualizar(tree)
             cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
                 ""
@@ -107,13 +72,7 @@ class operaciones:
         global my_data
         for element in records:
             tree.delete(element)
-        """   
-        sql = "SELECT * FROM clientes ORDER BY cuenta ASC"
-        con = self.conexion()
-        cursor = con.cursor()
-        datos = cursor.execute(sql)
-        my_data = datos.fetchall()
-        """
+
         for fila in Clientes.select():
             tree.insert(
                 "",
@@ -140,15 +99,6 @@ class operaciones:
         borrar.delete_instance()
         print(borrar)
         self.funcion_actualizar(tree)
-
-        """con = self.conexion()
-        cursor = con.cursor()
-        data = (mi_id,)
-        tree.delete(cliente)
-        sql = "DELETE FROM clientes WHERE cuenta = ?;"
-        cursor.execute(sql, data)
-        con.commit()"""
-
         return "Registro eliminado"
 
     # ------------------------------------------------------------------------------------------------------------
@@ -177,12 +127,6 @@ class operaciones:
             localidad=localidad.get(),
         ).where(Clientes.id == mi_id)
         actualizar.execute()
-
-        """con = self.conexion()
-        cursor = con.cursor()
-        sql = f"UPDATE clientes SET cuenta = '{cuenta.get()}', reparto = '{reparto.get()}', numero_de_cliente = '{numero_de_cliente.get()}', sucursal = '{sucursal.get()}', razonsocial = '{razonsocial.get()}', direccion = '{direccion.get()}', localidad = '{localidad.get()}' WHERE cuenta = '{mi_id}';"
-        cursor.execute(sql)
-        con.commit()"""
         self.funcion_actualizar(tree)
         cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
             ""
@@ -196,66 +140,42 @@ class operaciones:
         tree,
         busqueda,
     ):
+
         busqueda = busqueda.get()
         records = tree.get_children()
         global my_data
         for element in records:
             tree.delete(element)
-        buscar = (
-            Clientes.select().where(Clientes.id % busqueda)
-            | Clientes.select().where(Clientes.cuenta % busqueda)
-            | Clientes.select().where(Clientes.reparto % busqueda)
-            | Clientes.select().where(Clientes.numero_de_cliente % busqueda)
-            | Clientes.select().where(Clientes.sucursal % busqueda)
-            | Clientes.select().where(Clientes.razonsocial % busqueda)
-            | Clientes.select().where(Clientes.direccion % busqueda)
-            | Clientes.select().where(Clientes.localidad % busqueda)
-        )
-        buscar.execute()
-        print(buscar)
-        for fila in buscar:
-            tree.insert(
-                "",
-                "end",
-                text=fila.id,
-                values=(
-                    fila.cuenta,
-                    fila.reparto,
-                    fila.numero_de_cliente,
-                    fila.sucursal,
-                    fila.razonsocial,
-                    fila.direccion,
-                    fila.localidad,
-                ),
+            buscar = (
+                Clientes.select().where(Clientes.id.contains(busqueda))
+                | Clientes.select().where(Clientes.cuenta.contains(busqueda))
+                | Clientes.select().where(Clientes.reparto.contains(busqueda))
+                | Clientes.select().where(Clientes.numero_de_cliente.contains(busqueda))
+                | Clientes.select().where(Clientes.sucursal.contains(busqueda))
+                | Clientes.select().where(Clientes.razonsocial.contains(busqueda))
+                | Clientes.select().where(Clientes.direccion.contains(busqueda))
+                | Clientes.select().where(Clientes.localidad.contains(busqueda))
             )
-
-        """records = tree.get_children()
-        global my_data
-        for element in records:
-            tree.delete(element)
-        sql = f"SELECT * FROM clientes WHERE cuenta LIKE '%{busqueda.get()}%' OR reparto LIKE '%{busqueda.get()}%' OR numero_de_cliente LIKE '%{busqueda.get()}%' OR sucursal LIKE '%{busqueda.get()}%' OR razonsocial LIKE '%{busqueda.get()}%' OR direccion LIKE '%{busqueda.get()}%' OR localidad LIKE '%{busqueda.get()}%' "
-        con = self.conexion()
-        cursor = con.cursor()
-        datos = cursor.execute(sql)
-        
-        #my_data = datos.fetchall()
-        for fila in my_data:
-            print(fila)
-            tree.insert(
-                "",
-                "end",
-                text=fila[0],
-                values=(fila[1], fila[2], fila[3], fila[4], fila[5], fila[6]),
+            buscar.execute()
+        try:
+            for fila in buscar:
+                tree.insert(
+                    "",
+                    "end",
+                    text=fila.id,
+                    values=(
+                        fila.cuenta,
+                        fila.reparto,
+                        fila.numero_de_cliente,
+                        fila.sucursal,
+                        fila.razonsocial,
+                        fila.direccion,
+                        fila.localidad,
+                    ),
+                )
+        except:
+            print(f"No se enontro ningun registro con la busqueda: '{busqueda}'")
+        else:
+            print(
+                f"El resultado es :  ID={fila.id}, Cuenta={fila.cuenta}, Reparto={fila.reparto}, Razon Social={fila.razonsocial}"
             )
-        """
-
-    """        
-    def funcion_imprimir(self, tree):
-        # codigo para generar un txt con resultado del treeview -------
-        with open("pendientes.txt", "w") as f:
-            for item_id in tree.get_children():
-                item = tree.item(item_id)
-        print(item["text"], item["values"], file=f)
-
-
-"""

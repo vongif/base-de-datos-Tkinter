@@ -7,6 +7,7 @@ from tkinter import Button
 from tkinter import messagebox
 from tkinter import Tk
 from modelo import operaciones
+from error import RegistroError
 
 
 class Ventana:
@@ -310,12 +311,12 @@ class Ventana:
         item = dict(self.tree.item(dato))
         # try:
         self.valor_cuenta.set(item.get("values")[0])
-        self.valor_reparto.set(item.get("values")[0])
-        self.valor_cliente.set(item.get("values")[1])
-        self.valor_sucursal.set(item.get("values")[2])
-        self.valor_razon.set(item.get("values")[3])
-        self.valor_direccion.set(item.get("values")[4])
-        self.valor_localidad.set(item.get("values")[5])
+        self.valor_reparto.set(item.get("values")[1])
+        self.valor_cliente.set(item.get("values")[2])
+        self.valor_sucursal.set(item.get("values")[3])
+        self.valor_razon.set(item.get("values")[4])
+        self.valor_direccion.set(item.get("values")[5])
+        self.valor_localidad.set(item.get("values")[6])
         # except:
         #    pass
 
@@ -346,12 +347,3 @@ class Ventana:
         self,
     ):
         self.objeto_uno.funcion_actualizar(self.tree)
-
-
-"""
-if __name__ == "__main__":
-
-    app = Tk()
-    objeto1 = Ventana(app)
-    app.mainloop()
-"""
