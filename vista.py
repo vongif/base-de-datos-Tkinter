@@ -317,6 +317,7 @@ class Ventana:
         self.valor_razon.set(item.get("values")[4])
         self.valor_direccion.set(item.get("values")[5])
         self.valor_localidad.set(item.get("values")[6])
+        self.valor_localidad.set(item.get("values")[7])
         # except:
         #    pass
 

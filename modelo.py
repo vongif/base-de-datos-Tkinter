@@ -1,6 +1,11 @@
 import sqlite3
 import re
 from peewee import *
+from types import MethodType
+from decoradores import Decorador_alta
+from decoradores import Decorador_eliminar
+from decoradores import Decorador_actualizar
+
 
 # import csv
 # import os
@@ -33,7 +38,7 @@ class operaciones:
         pass
 
     # Funciones CRUD-------------------------------------------------------------------------
-
+    @Decorador_alta
     def funcion_alta(
         self,
         cuenta,
@@ -66,6 +71,7 @@ class operaciones:
         else:
             return ("Error", "No se creo el registro")
 
+    @Decorador_actualizar
     def funcion_actualizar(self, tree):
 
         records = tree.get_children()
@@ -91,6 +97,7 @@ class operaciones:
 
     # ----------------------------------------------------------------------------------------
 
+    @Decorador_eliminar
     def funcion_borrar(self, tree):
         cliente = tree.selection()
         item = tree.item(cliente)
