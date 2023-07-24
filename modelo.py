@@ -2,14 +2,18 @@ import sqlite3
 import re
 from peewee import *
 from types import MethodType
-from decoradores import Decorador_alta
-from decoradores import Decorador_eliminar
-from decoradores import Decorador_actualizar
+
+from decoradores import decorador_alta
+from decoradores import decorador_eliminar
+from decoradores import decorador_actualizar
+from observador import Sujeto
 
 
 # import csv
 # import os
 
+
+# BASE DE DATOS---------------------------------------------------------------
 
 db = SqliteDatabase("base_ejemplo.db")
 
@@ -33,12 +37,15 @@ db.connect()
 db.create_tables([Clientes])
 
 
-class operaciones:
+# CRUD---------------------------------------------------------------
+
+
+class operaciones(Sujeto):
     def __init__(self):
         pass
 
     # Funciones CRUD-------------------------------------------------------------------------
-    @Decorador_alta
+    @decorador_alta
     def funcion_alta(
         self,
         cuenta,
@@ -64,14 +71,36 @@ class operaciones:
             clientes.localidad = localidad.get()
             clientes.save()
             self.funcion_actualizar(tree)
+            self.notificar(
+                clientes.cuenta,
+                clientes.reparto,
+                clientes.numero_de_cliente,
+                clientes.razonsocial,
+            )
             cuenta.set(""), reparto.set(""), numero_de_cliente.set(""), sucursal.set(
                 ""
             ), razonsocial.set(""), direccion.set(""), localidad.set("")
-            return "Registro dado de alta"
+            return (
+                "Registro dado de alta: ",
+                "\n", "Cuenta: ",
+                clientes.cuenta,
+                "\n", "Reparto: ",
+                clientes.reparto,
+                "\n", "Numero de CLiente: ",
+                clientes.numero_de_cliente,
+                "\n", "Sucursal: ",
+                clientes.sucursal,
+                "\n", "Razon Social: ",
+                clientes.razonsocial,
+                "\n", "Direccion: ",
+                clientes.direccion,
+                "\n", "Localidad",
+                clientes.localidad,
+            )
         else:
             return ("Error", "No se creo el registro")
 
-    @Decorador_actualizar
+    @decorador_actualizar
     def funcion_actualizar(self, tree):
 
         records = tree.get_children()
@@ -94,10 +123,34 @@ class operaciones:
                     fila.localidad,
                 ),
             )
+        return (
+            "Registro actualizado",
+            "\n",
+            "Cuenta: ",
+            fila.cuenta,
+            "\n",
+            "Reparto: ",
+            fila.reparto,
+            "\n",
+            "Numero de CLiente: ",
+            fila.numero_de_cliente,
+            "\n",
+            "Sucursal: ",
+            fila.sucursal,
+            "\n",
+            "Razon Social: ",
+            fila.razonsocial,
+            "\n",
+            "Direccion: ",
+            fila.direccion,
+            "\n",
+            "Localidad",
+            fila.localidad,
+        )
 
     # ----------------------------------------------------------------------------------------
 
-    @Decorador_eliminar
+    @decorador_eliminar
     def funcion_borrar(self, tree):
         cliente = tree.selection()
         item = tree.item(cliente)
@@ -106,7 +159,30 @@ class operaciones:
         borrar.delete_instance()
         print(borrar)
         self.funcion_actualizar(tree)
-        return "Registro eliminado"
+        return (
+            "Registro eliminado: ",
+            "\n",
+            "Cuenta: ",
+            item.get("values")[0],
+            "\n",
+            "Reparto: ",
+            item.get("values")[1],
+            "\n",
+            "Numero de cliente: ",
+            item.get("values")[2],
+            "\n",
+            "Sucursal: ",
+            item.get("values")[3],
+            "\n",
+            "Razon Social: ",
+            item.get("values")[4],
+            "\n",
+            "Direccion: ",
+            item.get("values")[5],
+            "\n",
+            "Localidad: ",
+            item.get("values")[6],
+        )
 
     # ------------------------------------------------------------------------------------------------------------
 

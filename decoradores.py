@@ -2,8 +2,7 @@ import re
 from peewee import *
 from types import MethodType
 
-
-
+"""
 # DECORADOR ALTA-----------------------------------------------------------------------------------------------------
 
 
@@ -13,7 +12,7 @@ class Decorador_alta(object):
         print(self.func)
 
     def __call__(self, *args, **kwargs):
-        print("Alta de nuevo registro  --------------------------")
+        print("Alta de registro  --------------------------")
         print(*args)
         print(**kwargs)
         print(self.func)
@@ -21,7 +20,6 @@ class Decorador_alta(object):
 
     def __get__(self, instance, cls):
         return self if instance is None else MethodType(self, instance)
-
 
 
 # DECORADOR ELIMINAR-----------------------------------------------------------------------------------------------------
@@ -60,3 +58,45 @@ class Decorador_actualizar(object):
 
     def __get__(self, instance, cls):
         return self if instance is None else MethodType(self, instance)
+
+     
+"""
+
+
+def decorador_alta(funcion):
+    def envoltura(*args, **kwargs):
+        result = funcion(*args, **kwargs)
+        print("Decorador Alta", "--" * 50)
+        print(result)
+        archivo = open("registro.txt", "a")
+        archivo.write(str(result) + "\n" + "\n")
+
+        return result
+
+    return envoltura
+
+
+def decorador_actualizar(funcion):
+    def envoltura(*args, **kwargs):
+        result = funcion(*args, **kwargs)
+        print("Decorador Actualizar", "--" * 50)
+        print(result)
+        archivo = open("registro.txt", "a")
+        archivo.write(str(result) + "\n" + "\n")
+
+        return result
+
+    return envoltura
+
+
+def decorador_eliminar(funcion):
+    def envoltura(*args, **kwargs):
+        result = funcion(*args, **kwargs)
+        print("Decorador Eliminar", "--" * 50)
+        print(result)
+        archivo = open("registro.txt", "a")
+        archivo.write(str(result) + "\n" + "\n")
+
+        return result
+
+    return envoltura
