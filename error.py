@@ -5,7 +5,7 @@ import datetime
 class RegistroError(Exception):
 
     BASE_DIR = os.path.dirname((os.path.abspath(__file__)))
-    ruta = os.path.join(BASE_DIR, "log.txt")
+    ruta = os.path.join(BASE_DIR, "errores.txt")
 
     def __init__(self, linea, archivo, fecha):
         self.linea = linea

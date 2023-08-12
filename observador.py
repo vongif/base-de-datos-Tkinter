@@ -1,3 +1,6 @@
+import datetime
+
+
 class Sujeto:
 
     observadores = []
@@ -27,9 +30,14 @@ class ConcreteObserverA(Observador):
         print("Actualización dentro de Observador A", "--" * 50)
         print("Aquí están los parámetros: ", args)
         archivo = open("registro.txt", "a")
+
+        x = datetime.datetime.now()
+
         archivo.write(
             "AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   "
             + str(args)
             + "\n"
             + "\n"
+            + str((x))
         )
+        return args

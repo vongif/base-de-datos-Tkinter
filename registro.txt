@@ -118,3 +118,931 @@ AVISO !!!!! ------------  para Observador A. Se realizao un Alta:   ((6, 68, 9, 
 
 ('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad', 'rtr')
 
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de cliente: ', 55, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'tyyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad: ', 'tytyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 5, '\n', 'Numero de cliente: ', 65, '\n', 'Sucursal: ', 56, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'rytyt', '\n', 'Localidad: ', 'ytyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 44, '\n', 'Numero de cliente: ', 44, '\n', 'Sucursal: ', 44, '\n', 'Razon Social: ', 't5', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad: ', 'rtrtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 44, '\n', 'Numero de cliente: ', 44, '\n', 'Sucursal: ', 44, '\n', 'Razon Social: ', 'retr', '\n', 'Direccion: ', 'ttr', '\n', 'Localidad: ', 'trtrt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 65, '\n', 'Reparto: ', 5, '\n', 'Numero de cliente: ', 8, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'uyu', '\n', 'Direccion: ', 'uyuuyu', '\n', 'Localidad: ', 'yuyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5555, '\n', 'Sucursal: ', 656, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'ytyt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 5, 5555, 'yt'),)
+
+('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5555, '\n', 'Sucursal: ', 656, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'ytyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5555, '\n', 'Sucursal: ', 656, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'ytyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 747, '\n', 'Reparto: ', 5555, '\n', 'Numero de CLiente: ', 55555, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'trytryty', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'ytyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((747, 5555, 55555, 'trytryty'),)
+
+('Registro dado de alta: ', '\n', 'Cuenta: ', 747, '\n', 'Reparto: ', 5555, '\n', 'Numero de CLiente: ', 55555, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'trytryty', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'ytyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((3, 33, 333, 'rtr'),)
+
+('Registro dado de alta: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 567, '\n', 'Numero de cliente: ', 73, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'ret', '\n', 'Direccion: ', 'trtrt', '\n', 'Localidad: ', 'rtrtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 66, '\n', 'Reparto: ', 66, '\n', 'Numero de cliente: ', 66, '\n', 'Sucursal: ', 66, '\n', 'Razon Social: ', 'try', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad: ', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de cliente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'er', '\n', 'Direccion: ', 'erer', '\n', 'Localidad: ', 'er')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 563, '\n', 'Numero de CLiente: ', 346346, '\n', 'Sucursal: ', 4634, '\n', 'Razon Social: ', 'yretyry', '\n', 'Direccion: ', 'eryer', '\n', 'Localidad', 'yeryrey')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 563, '\n', 'Numero de CLiente: ', 346346, '\n', 'Sucursal: ', 4634, '\n', 'Razon Social: ', 'yretyry', '\n', 'Direccion: ', 'eryer', '\n', 'Localidad', 'yeryrey')
+
+('Registro actualizado', '\n', 'Cuenta: ', 34324, '\n', 'Reparto: ', 324234, '\n', 'Numero de CLiente: ', 34324, '\n', 'Sucursal: ', 3234, '\n', 'Razon Social: ', 'ere', '\n', 'Direccion: ', 'rere', '\n', 'Localidad', 'rer')
+
+('Registro actualizado', '\n', 'Cuenta: ', 34324, '\n', 'Reparto: ', 324234, '\n', 'Numero de CLiente: ', 34324, '\n', 'Sucursal: ', 3234, '\n', 'Razon Social: ', 'ere', '\n', 'Direccion: ', 'rere', '\n', 'Localidad', 'rer')
+
+('Registro actualizado', '\n', 'Cuenta: ', 32, '\n', 'Reparto: ', 32, '\n', 'Numero de CLiente: ', 0, '\n', 'Sucursal: ', 324, '\n', 'Razon Social: ', 'sdfds', '\n', 'Direccion: ', 'fdf', '\n', 'Localidad', 'fdfd')
+
+('Registro actualizado', '\n', 'Cuenta: ', 32, '\n', 'Reparto: ', 32, '\n', 'Numero de CLiente: ', 0, '\n', 'Sucursal: ', 324, '\n', 'Razon Social: ', 'sdfds', '\n', 'Direccion: ', 'fdf', '\n', 'Localidad', 'fdfd')
+
+('Registro actualizado', '\n', 'Cuenta: ', 32, '\n', 'Reparto: ', 32, '\n', 'Numero de CLiente: ', 0, '\n', 'Sucursal: ', 324, '\n', 'Razon Social: ', 'sdfds', '\n', 'Direccion: ', 'fdf', '\n', 'Localidad', 'fdfd')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4454, '\n', 'Reparto: ', 4543, '\n', 'Numero de cliente: ', 4543, '\n', 'Sucursal: ', 4543, '\n', 'Razon Social: ', 'gfg', '\n', 'Direccion: ', 'fgfg', '\n', 'Localidad: ', 'fgf')
+
+('Registro actualizado', '\n', 'Cuenta: ', 32, '\n', 'Reparto: ', 32, '\n', 'Numero de CLiente: ', 0, '\n', 'Sucursal: ', 324, '\n', 'Razon Social: ', 'sdfds', '\n', 'Direccion: ', 'fdf', '\n', 'Localidad', 'fdfd')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de cliente: ', 67, '\n', 'Sucursal: ', 546, '\n', 'Razon Social: ', 'rtretre', '\n', 'Direccion: ', 'ttrt', '\n', 'Localidad: ', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 32, '\n', 'Reparto: ', 32, '\n', 'Numero de CLiente: ', 0, '\n', 'Sucursal: ', 324, '\n', 'Razon Social: ', 'sdfds', '\n', 'Direccion: ', 'fdf', '\n', 'Localidad', 'fdfd')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 33, '\n', 'Reparto: ', 33, '\n', 'Numero de cliente: ', 3, '\n', 'Sucursal: ', 45, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'rtrtr', '\n', 'Localidad: ', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 32, '\n', 'Reparto: ', 32, '\n', 'Numero de CLiente: ', 0, '\n', 'Sucursal: ', 324, '\n', 'Razon Social: ', 'sdfds', '\n', 'Direccion: ', 'fdf', '\n', 'Localidad', 'fdfd')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 44, '\n', 'Reparto: ', 44, '\n', 'Numero de cliente: ', 44, '\n', 'Sucursal: ', 44, '\n', 'Razon Social: ', 'retrtrt', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad: ', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 32, '\n', 'Reparto: ', 32, '\n', 'Numero de CLiente: ', 0, '\n', 'Sucursal: ', 324, '\n', 'Razon Social: ', 'sdfds', '\n', 'Direccion: ', 'fdf', '\n', 'Localidad', 'fdfd')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 747, '\n', 'Reparto: ', 5555, '\n', 'Numero de cliente: ', 55555, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'trytryty', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad: ', 'ytyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 324, '\n', 'Reparto: ', 3, '\n', 'Numero de CLiente: ', 33, '\n', 'Sucursal: ', 333, '\n', 'Razon Social: ', 'dfdsfff', '\n', 'Direccion: ', 'rrewr', '\n', 'Localidad', 'dfdfdf')
+
+('Registro actualizado', '\n', 'Cuenta: ', 324, '\n', 'Reparto: ', 3, '\n', 'Numero de CLiente: ', 33, '\n', 'Sucursal: ', 333, '\n', 'Razon Social: ', 'dfdsfff', '\n', 'Direccion: ', 'rrewr', '\n', 'Localidad', 'dfdfdf')
+
+('Registro actualizado', '\n', 'Cuenta: ', 324, '\n', 'Reparto: ', 3, '\n', 'Numero de CLiente: ', 33, '\n', 'Sucursal: ', 333, '\n', 'Razon Social: ', 'dfdsfff', '\n', 'Direccion: ', 'rrewr', '\n', 'Localidad', 'dfdfdf')
+
+('Registro actualizado', '\n', 'Cuenta: ', 34, '\n', 'Reparto: ', 3, '\n', 'Numero de CLiente: ', 32432, '\n', 'Sucursal: ', 34, '\n', 'Razon Social: ', 'ree', '\n', 'Direccion: ', 'rer', '\n', 'Localidad', 'erer')
+
+('Registro actualizado', '\n', 'Cuenta: ', 34, '\n', 'Reparto: ', 3, '\n', 'Numero de CLiente: ', 32432, '\n', 'Sucursal: ', 34, '\n', 'Razon Social: ', 'ree', '\n', 'Direccion: ', 'rer', '\n', 'Localidad', 'erer')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 42, '\n', 'Numero de CLiente: ', 2, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'r', '\n', 'Direccion: ', 'rt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 42, '\n', 'Numero de CLiente: ', 2, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'r', '\n', 'Direccion: ', 'rt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 2345, '\n', 'Numero de CLiente: ', 4365, '\n', 'Sucursal: ', 5476, '\n', 'Razon Social: ', 'ryy', '\n', 'Direccion: ', 'rt', '\n', 'Localidad', 'trtr')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta: {x} ((4, 2345, 4365, 'ryy'),)
+
+('Registro dado de alta: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 2345, '\n', 'Numero de CLiente: ', 4365, '\n', 'Sucursal: ', 5476, '\n', 'Razon Social: ', 'ryy', '\n', 'Direccion: ', 'rt', '\n', 'Localidad', 'trtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 2345, '\n', 'Numero de CLiente: ', 4365, '\n', 'Sucursal: ', 5476, '\n', 'Razon Social: ', 'ryy', '\n', 'Direccion: ', 'rt', '\n', 'Localidad', 'trtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'fdghhfg', '\n', 'Direccion: ', 'ty', '\n', 'Localidad', 'ry')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'fdghhfg', '\n', 'Direccion: ', 'ty', '\n', 'Localidad', 'ry')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 45643, '\n', 'Numero de CLiente: ', 4564, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ryt', '\n', 'Direccion: ', 'retr', '\n', 'Localidad', 'etrt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 45643, '\n', 'Numero de CLiente: ', 4564, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ryt', '\n', 'Direccion: ', 'retr', '\n', 'Localidad', 'etrt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((67, 6, 9, 'iuyuu'),)
+
+x('Registro dado de alta: ', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 456546, '\n', 'Reparto: ', 56546546, '\n', 'Numero de cliente: ', 5656, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'yty', '\n', 'Localidad: ', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 47, '\n', 'Reparto: ', 7, '\n', 'Numero de cliente: ', 4, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ty', '\n', 'Localidad: ', 'try')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de cliente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'rtr', '\n', 'Localidad: ', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 45, '\n', 'Reparto: ', 4545, '\n', 'Numero de cliente: ', 4545, '\n', 'Sucursal: ', 454, '\n', 'Razon Social: ', 'trtr', '\n', 'Direccion: ', 'trt', '\n', 'Localidad: ', 'rtrtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 68, '\n', 'Numero de cliente: ', 9, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'ui', '\n', 'Direccion: ', 'i', '\n', 'Localidad: ', 'i')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 6, '\n', 'Numero de cliente: ', 5, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad: ', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 64, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'ytry', '\n', 'Direccion: ', 'ty', '\n', 'Localidad', 'tyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((3, 64, 5, 'ytry'),)
+
+2023-08-04 19:28:32.244744('Registro dado de alta: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 64, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'ytry', '\n', 'Direccion: ', 'ty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 64, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'ytry', '\n', 'Direccion: ', 'ty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'try', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'try', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 90, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 90, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'y', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 5, 5, 'y'),)
+
+4('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'y', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'y', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 45, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'rtrtret', '\n', 'Direccion: ', 'retr', '\n', 'Localidad', 'tret')
+
+('Registro actualizado', '\n', 'Cuenta: ', 45, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'rtrtret', '\n', 'Direccion: ', 'retr', '\n', 'Localidad', 'tret')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rtre', '\n', 'Direccion: ', 'trt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rtre', '\n', 'Direccion: ', 'trt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 63, '\n', 'Sucursal: ', 56, '\n', 'Razon Social: ', 'ytr', '\n', 'Direccion: ', 'retret', '\n', 'Localidad', 'rt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 63, '\n', 'Sucursal: ', 56, '\n', 'Razon Social: ', 'ytr', '\n', 'Direccion: ', 'retret', '\n', 'Localidad', 'rt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'hgmh', '\n', 'Direccion: ', 'sfbgfbdj', '\n', 'Localidad', 'ghgj')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 5, 5, 'hgmh'),)
+
+<built-in method time of datetime.datetime object at 0x000001EF6ED5DDE0>('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'hgmh', '\n', 'Direccion: ', 'sfbgfbdj', '\n', 'Localidad', 'ghgj')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'hgmh', '\n', 'Direccion: ', 'sfbgfbdj', '\n', 'Localidad', 'ghgj')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((54, 9, 8, 't'),)
+
+2023-08-04 19:53:02.935036('Registro dado de alta: ', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 3, '\n', 'Numero de cliente: ', 3, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'j', '\n', 'Direccion: ', 'fgh', '\n', 'Localidad: ', 'gfh')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 563, '\n', 'Numero de cliente: ', 346346, '\n', 'Sucursal: ', 4634, '\n', 'Razon Social: ', 'yretyry', '\n', 'Direccion: ', 'eryer', '\n', 'Localidad: ', 'yeryrey')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 747, '\n', 'Reparto: ', 5555, '\n', 'Numero de cliente: ', 55555, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'trytryty', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad: ', 'ytyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad', 'yty')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de cliente: ', 5555, '\n', 'Sucursal: ', 656, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad: ', 'ytyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 'ret', '\n', 'Direccion: ', 'trt', '\n', 'Localidad', 'rt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 55, 55, 'ret'),)
+
+2023-08-05 00:21:53.216974('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 'ret', '\n', 'Direccion: ', 'trt', '\n', 'Localidad', 'rt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 'ret', '\n', 'Direccion: ', 'trt', '\n', 'Localidad', 'rt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 43, '\n', 'Reparto: ', 56, '\n', 'Numero de CLiente: ', 56, '\n', 'Sucursal: ', 56, '\n', 'Razon Social: ', 'rtretrtr', '\n', 'Direccion: ', 'trtrtr', '\n', 'Localidad', 'rtr')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((43, 56, 56, 'rtretrtr'),)
+
+2023-08-05 00:39:17.224854('Registro dado de alta: ', '\n', 'Cuenta: ', 43, '\n', 'Reparto: ', 56, '\n', 'Numero de CLiente: ', 56, '\n', 'Sucursal: ', 56, '\n', 'Razon Social: ', 'rtretrtr', '\n', 'Direccion: ', 'trtrtr', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 43, '\n', 'Reparto: ', 56, '\n', 'Numero de CLiente: ', 56, '\n', 'Sucursal: ', 56, '\n', 'Razon Social: ', 'rtretrtr', '\n', 'Direccion: ', 'trtrtr', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 76, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((4, 45, 76, 'yt'),)
+
+2023-08-05 00:41:54.969103('Registro dado de alta: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 76, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 76, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 76, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 76, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 76, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyt')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 34324, '\n', 'Reparto: ', 324234, '\n', 'Numero de cliente: ', 34324, '\n', 'Sucursal: ', 3234, '\n', 'Razon Social: ', 'ere', '\n', 'Direccion: ', 'rere', '\n', 'Localidad: ', 'rer')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 76, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyt')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 32, '\n', 'Reparto: ', 32, '\n', 'Numero de cliente: ', 0, '\n', 'Sucursal: ', 324, '\n', 'Razon Social: ', 'sdfds', '\n', 'Direccion: ', 'fdf', '\n', 'Localidad: ', 'fdfd')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 7, 7, 'ytyt'),)
+
+2023-08-05 00:50:24.899557('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 23, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((3, 23, 23, 'ewr'),)
+
+2023-08-05 20:47:46.819007('Registro dado de alta: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 23, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 23, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 23, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 324, '\n', 'Reparto: ', 3, '\n', 'Numero de cliente: ', 33, '\n', 'Sucursal: ', 333, '\n', 'Razon Social: ', 'dfdsfff', '\n', 'Direccion: ', 'rrewr', '\n', 'Localidad: ', 'dfdfdf')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rtretrt', '\n', 'Direccion: ', 'rtre', '\n', 'Localidad', 'ur')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((4, 4, 4, 'rtretrt'),)
+
+2023-08-05 20:52:13.544893('Registro dado de alta: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rtretrt', '\n', 'Direccion: ', 'rtre', '\n', 'Localidad', 'ur')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rtretrt', '\n', 'Direccion: ', 'rtre', '\n', 'Localidad', 'ur')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad', 'retre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((4, 4, 4, 'rtrt'),)
+
+2023-08-05 20:59:15.168055('Registro dado de alta: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad', 'retre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad', 'retre')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de cliente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad: ', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad', 'retre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((6, 456, 4345, 'rer'),)
+
+2023-08-05 21:08:23.969558('Registro dado de alta: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:11:21.412247AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:12:20.894561('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 324, '\n', 'Reparto: ', 3, '\n', 'Numero de cliente: ', 33, '\n', 'Sucursal: ', 333, '\n', 'Razon Social: ', 'dfdsfff', '\n', 'Direccion: ', 'rrewr', '\n', 'Localidad: ', 'dfdfdf')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 56, '\n', 'Numero de CLiente: ', 5656, '\n', 'Sucursal: ', 564, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 56, 5656, 'yt'),)
+
+2023-08-05 21:15:20.133861('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 56, '\n', 'Numero de CLiente: ', 5656, '\n', 'Sucursal: ', 564, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 56, '\n', 'Numero de CLiente: ', 5656, '\n', 'Sucursal: ', 564, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 56, '\n', 'Numero de CLiente: ', 5656, '\n', 'Sucursal: ', 564, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 546, '\n', 'Numero de cliente: ', 5465, '\n', 'Sucursal: ', 45645, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'rretr', '\n', 'Localidad: ', 'trtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 56, '\n', 'Numero de CLiente: ', 5656, '\n', 'Sucursal: ', 564, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 45643, '\n', 'Numero de cliente: ', 4564, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ryt', '\n', 'Direccion: ', 'retr', '\n', 'Localidad: ', 'etrt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 77, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 685, '\n', 'Razon Social: ', 'ry', '\n', 'Direccion: ', 'ty', '\n', 'Localidad', 'tyt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 77, 55, 'ry'),)
+
+2023-08-05 21:17:08.800846('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 77, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 685, '\n', 'Razon Social: ', 'ry', '\n', 'Direccion: ', 'ty', '\n', 'Localidad', 'tyt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:17:24.679513('Registro actualizado', '\n', 'Cuenta: ', 76, '\n', 'Reparto: ', 87887, '\n', 'Numero de CLiente: ', 787, '\n', 'Sucursal: ', 8978, '\n', 'Razon Social: ', 'ytuy', '\n', 'Direccion: ', 'uyuy', '\n', 'Localidad', 'uyuyt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((76, 87887, 787, 'ytuy'),)
+
+2023-08-05 21:20:39.272171('Registro dado de alta: ', '\n', 'Cuenta: ', 76, '\n', 'Reparto: ', 87887, '\n', 'Numero de CLiente: ', 787, '\n', 'Sucursal: ', 8978, '\n', 'Razon Social: ', 'ytuy', '\n', 'Direccion: ', 'uyuy', '\n', 'Localidad', 'uyuyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 't', '\n', 'Localidad', 't')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((55, 55, 55, 't'),)
+
+2023-08-05 21:20:59.280070('Registro dado de alta: ', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 't', '\n', 'Localidad', 't')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:21:18.949047AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:24:17.707385AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:24:44.766274AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:25:16.464494AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:26:52.349512AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:27:21.864040('Registro actualizado', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 't', '\n', 'Localidad', 't')
+
+('Registro actualizado', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 't', '\n', 'Localidad', 't')
+
+('Registro actualizado', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 't', '\n', 'Localidad', 't')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:35:14.789655AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:36:24.740075AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:39:15.962447AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:40:45.460156('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrtuyy', '\n', 'Localidad', 'rtr')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((3, 33, 333, 'rtr'),)
+
+2023-08-05 21:41:37.126020('Registro dado de alta: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrtuyy', '\n', 'Localidad', 'rtr')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:42:04.607384('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrtuyy', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'tyty', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad', 'tyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((7, 4, 6, 'tyty'),)
+
+2023-08-05 21:45:28.009135('Registro dado de alta: ', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'tyty', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad', 'tyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:45:37.628317AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:46:36.185166AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:47:26.123015AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:49:05.935419AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:52:39.062325AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:53:26.968953AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:54:02.131250AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 21:54:42.867049('Registro actualizado', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'tyty', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'yty', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'ytyt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 5, 5, 'yty'),)
+
+2023-08-05 22:05:09.471246('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'yty', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'ytyt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-05 22:05:14.437950('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'yty', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'ytyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 90, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 7, 4, 'tyt'),)
+
+2023-08-06 20:21:54.783673('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 90, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-06 20:24:09.741218('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 90, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad', 'tyty')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 4, '\n', 'Numero de cliente: ', 4, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'fdghhfg', '\n', 'Direccion: ', 'ty', '\n', 'Localidad: ', 'ry')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'rr', '\n', 'Localidad', 'rtrt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((4, 4, 4, 'rt'),)
+
+2023-08-06 20:24:39.656233('Registro dado de alta: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'rr', '\n', 'Localidad', 'rtrt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'rr', '\n', 'Localidad', 'rtrt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((78, 787, 78, 'uiui'),)
+
+2023-08-11 19:49:31.881870('Registro dado de alta: ', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 2345, '\n', 'Numero de cliente: ', 4365, '\n', 'Sucursal: ', 5476, '\n', 'Razon Social: ', 'ryy', '\n', 'Direccion: ', 'rt', '\n', 'Localidad: ', 'trtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de cliente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'try', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad: ', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 64, '\n', 'Numero de cliente: ', 5, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'ytry', '\n', 'Direccion: ', 'ty', '\n', 'Localidad: ', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 7, '\n', 'Numero de cliente: ', 4, '\n', 'Sucursal: ', 90, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad: ', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 42, '\n', 'Numero de cliente: ', 2, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'r', '\n', 'Direccion: ', 'rt', '\n', 'Localidad: ', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de cliente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'y', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad: ', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 45, '\n', 'Reparto: ', 6, '\n', 'Numero de cliente: ', 6, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'rtrtret', '\n', 'Direccion: ', 'retr', '\n', 'Localidad: ', 'tret')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de cliente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rtre', '\n', 'Direccion: ', 'trt', '\n', 'Localidad: ', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 6, '\n', 'Numero de cliente: ', 9, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'iuyuu', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad: ', 'yuyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de cliente: ', 63, '\n', 'Sucursal: ', 56, '\n', 'Razon Social: ', 'ytr', '\n', 'Direccion: ', 'retret', '\n', 'Localidad: ', 'rt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 5, '\n', 'Numero de cliente: ', 5, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'hgmh', '\n', 'Direccion: ', 'sfbgfbdj', '\n', 'Localidad: ', 'ghgj')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 43, '\n', 'Reparto: ', 56, '\n', 'Numero de cliente: ', 56, '\n', 'Sucursal: ', 56, '\n', 'Razon Social: ', 'rtretrtr', '\n', 'Direccion: ', 'trtrtr', '\n', 'Localidad: ', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 45, '\n', 'Numero de cliente: ', 76, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad: ', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 34, '\n', 'Reparto: ', 3, '\n', 'Numero de cliente: ', 32432, '\n', 'Sucursal: ', 34, '\n', 'Razon Social: ', 'ree', '\n', 'Direccion: ', 'rer', '\n', 'Localidad: ', 'erer')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 54, '\n', 'Reparto: ', 9, '\n', 'Numero de cliente: ', 8, '\n', 'Sucursal: ', 65, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 'ytytyt', '\n', 'Localidad: ', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de cliente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rtretrt', '\n', 'Direccion: ', 'rtre', '\n', 'Localidad: ', 'ur')
+
+('Registro actualizado', '\n', 'Cuenta: ', 78, '\n', 'Reparto: ', 787, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uiui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iuiui')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de cliente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 'ret', '\n', 'Direccion: ', 'trt', '\n', 'Localidad: ', 'rt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 676, '\n', 'Numero de CLiente: ', 67, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'uyy', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'uyuyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((6, 676, 67, 'uyy'),)
+
+2023-08-11 19:52:41.880934('Registro dado de alta: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 676, '\n', 'Numero de CLiente: ', 67, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'uyy', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'uyuyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'uy', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((6, 6, 6, 'uy'),)
+
+2023-08-11 19:53:00.656770('Registro dado de alta: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'uy', '\n', 'Direccion: ', 'uyu', '\n', 'Localidad', 'yuyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((6, 456, 4345, 'rer'),)
+
+2023-08-11 19:53:50.870922('Registro dado de alta: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 56, '\n', 'Numero de cliente: ', 5656, '\n', 'Sucursal: ', 564, '\n', 'Razon Social: ', 'yt', '\n', 'Direccion: ', 'ytyty', '\n', 'Localidad: ', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((4, 4, 4, 'rt'),)
+
+2023-08-11 19:54:04.590869('Registro dado de alta: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'rt', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 59, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((59, 7, 7, 'ytyt'),)
+
+2023-08-11 19:56:34.911954('Registro dado de alta: ', '\n', 'Cuenta: ', 59, '\n', 'Reparto: ', 7, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 2398898, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((3, 2398898, 23, 'ewr'),)
+
+2023-08-11 19:58:45.960809('Registro dado de alta: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 2398898, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 2398898, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'tytytytytyt', '\n', 'Localidad', 'tyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((4, 4, 4, 'ty'),)
+
+2023-08-11 20:03:09.984537('Registro dado de alta: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 4, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'tytytytytyt', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345555, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((6, 456, 4345555, 'rer'),)
+
+2023-08-11 20:03:32.392099('Registro dado de alta: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 456, '\n', 'Numero de CLiente: ', 4345555, '\n', 'Sucursal: ', 54, '\n', 'Razon Social: ', 'rer', '\n', 'Direccion: ', 'trtr', '\n', 'Localidad', 'trt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 56, '\n', 'Reparto: ', 7657, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((56, 7657, 7, 'ytyt'),)
+
+2023-08-11 20:05:19.592302('Registro dado de alta: ', '\n', 'Cuenta: ', 56, '\n', 'Reparto: ', 7657, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 56, '\n', 'Reparto: ', 7657, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 56, '\n', 'Reparto: ', 7657, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 80, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 89, '\n', 'Razon Social: ', '98', '\n', 'Direccion: ', '989898', '\n', 'Localidad', '8989')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((7, 80, 8, '98'),)
+
+2023-08-11 20:06:36.887595('Registro dado de alta: ', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 80, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 89, '\n', 'Razon Social: ', '98', '\n', 'Direccion: ', '989898', '\n', 'Localidad', '8989')
+
+('Registro actualizado', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 80, '\n', 'Numero de CLiente: ', 8, '\n', 'Sucursal: ', 89, '\n', 'Razon Social: ', '98', '\n', 'Direccion: ', '989898', '\n', 'Localidad', '8989')
+
+('Registro actualizado', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'tyuuyuy', '\n', 'Direccion: ', 'yuyuy', '\n', 'Localidad', 'uyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((7, 5, 5, 'tyuuyuy'),)
+
+2023-08-11 20:08:48.361490('Registro dado de alta: ', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'tyuuyuy', '\n', 'Direccion: ', 'yuyuy', '\n', 'Localidad', 'uyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 5, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 5, '\n', 'Razon Social: ', 'tyuuyuy', '\n', 'Direccion: ', 'yuyuy', '\n', 'Localidad', 'uyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 23, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((55, 23, 23, 'ewr'),)
+
+2023-08-11 20:09:48.993201('Registro dado de alta: ', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 23, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 888, '\n', 'Reparto: ', 99, '\n', 'Numero de CLiente: ', 87, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuyuyu', '\n', 'Localidad', 'yu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((888, 99, 87, 'yuyu'),)
+
+2023-08-11 20:10:56.216437('Registro dado de alta: ', '\n', 'Cuenta: ', 888, '\n', 'Reparto: ', 99, '\n', 'Numero de CLiente: ', 87, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuyuyu', '\n', 'Localidad', 'yu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 888, '\n', 'Reparto: ', 99, '\n', 'Numero de CLiente: ', 87, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuyuyu', '\n', 'Localidad', 'yu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 909, '\n', 'Numero de CLiente: ', 99, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'ioio', '\n', 'Direccion: ', 'ioioioi', '\n', 'Localidad', 'oio')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((67, 909, 99, 'ioio'),)
+
+2023-08-11 20:12:23.680156('Registro dado de alta: ', '\n', 'Cuenta: ', 67, '\n', 'Reparto: ', 909, '\n', 'Numero de CLiente: ', 99, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'ioio', '\n', 'Direccion: ', 'ioioioi', '\n', 'Localidad', 'oio')
+
+('Registro actualizado', '\n', 'Cuenta: ', 56, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'tyty', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad', 'tyty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((56, 4, 6, 'tyty'),)
+
+2023-08-11 20:15:31.000755('Registro dado de alta: ', '\n', 'Cuenta: ', 56, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'tyty', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 56, '\n', 'Reparto: ', 4, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', 'tyty', '\n', 'Direccion: ', 'tyty', '\n', 'Localidad', 'tyty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 5453, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((3, 5453, 23, 'ewr'),)
+
+2023-08-11 20:15:52.642082('Registro dado de alta: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 5453, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 5453, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 666, '\n', 'Reparto: ', 66, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tytgh', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((666, 66, 7, 'ytyt'),)
+
+2023-08-11 20:18:11.727776('Registro dado de alta: ', '\n', 'Cuenta: ', 666, '\n', 'Reparto: ', 66, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tytgh', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 20:18:19.476371AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 20:23:25.358389('Registro actualizado', '\n', 'Cuenta: ', 666, '\n', 'Reparto: ', 66, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'ytyt', '\n', 'Direccion: ', 'tytgh', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 'thg', '\n', 'Direccion: ', 'hghgh', '\n', 'Localidad', 'ghghg')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((55, 55, 55, 'thg'),)
+
+2023-08-11 20:24:13.583647('Registro dado de alta: ', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 'thg', '\n', 'Direccion: ', 'hghgh', '\n', 'Localidad', 'ghghg')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 20:24:20.253477('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 89898898, '\n', 'Numero de CLiente: ', 48989898, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad', 'retre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((4, 89898898, 48989898, 'rtrt'),)
+
+2023-08-11 20:24:45.434216('Registro dado de alta: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 89898898, '\n', 'Numero de CLiente: ', 48989898, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad', 'retre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 20:24:54.265331('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 89898898, '\n', 'Numero de CLiente: ', 48989898, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad', 'retre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 89898898, '\n', 'Numero de CLiente: ', 48989898, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad', 'retre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 7878, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((7878, 33, 333, 'rtr'),)
+
+2023-08-11 20:43:07.793991('Registro dado de alta: ', '\n', 'Cuenta: ', 7878, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 20:43:40.856112AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 20:44:24.274342('Registro actualizado', '\n', 'Cuenta: ', 66666, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 't', '\n', 'Localidad', 't')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((66666, 55, 55, 't'),)
+
+2023-08-11 20:54:24.134903('Registro dado de alta: ', '\n', 'Cuenta: ', 66666, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 55, '\n', 'Razon Social: ', 't', '\n', 'Direccion: ', 't', '\n', 'Localidad', 't')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 20:54:29.747209AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:02:20.903555('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 67, '\n', 'Numero de CLiente: ', 67, '\n', 'Sucursal: ', 6765, '\n', 'Razon Social: ', 'uy', '\n', 'Direccion: ', 'yuyuyu', '\n', 'Localidad', 'yuy')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((6, 67, 67, 'uy'),)
+
+2023-08-11 21:02:33.679619('Registro dado de alta: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 67, '\n', 'Numero de CLiente: ', 67, '\n', 'Sucursal: ', 6765, '\n', 'Razon Social: ', 'uy', '\n', 'Direccion: ', 'yuyuyu', '\n', 'Localidad', 'yuy')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:02:48.794870('Registro actualizado', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 23, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((3, 23, 23, 'ewr'),)
+
+2023-08-11 21:02:55.590159('Registro dado de alta: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 23, '\n', 'Numero de CLiente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad', 'erre')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:03:02.521358('Registro actualizado', '\n', 'Cuenta: ', 6666, '\n', 'Reparto: ', 68768, '\n', 'Numero de CLiente: ', 745, '\n', 'Sucursal: ', 76, '\n', 'Razon Social: ', 'uyy', '\n', 'Direccion: ', 'uyuyuyuyu', '\n', 'Localidad', 'yuy')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((6666, 68768, 745, 'uyy'),)
+
+2023-08-11 21:20:58.701532('Registro dado de alta: ', '\n', 'Cuenta: ', 6666, '\n', 'Reparto: ', 68768, '\n', 'Numero de CLiente: ', 745, '\n', 'Sucursal: ', 76, '\n', 'Razon Social: ', 'uyy', '\n', 'Direccion: ', 'uyuyuyuyu', '\n', 'Localidad', 'yuy')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:21:05.723920AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:22:54.155779('Registro actualizado', '\n', 'Cuenta: ', 6666, '\n', 'Reparto: ', 68768, '\n', 'Numero de CLiente: ', 745, '\n', 'Sucursal: ', 76, '\n', 'Razon Social: ', 'uyy', '\n', 'Direccion: ', 'uyuyuyuyu', '\n', 'Localidad', 'yuy')
+
+('Registro actualizado', '\n', 'Cuenta: ', 77, '\n', 'Reparto: ', 66, '\n', 'Numero de CLiente: ', 567, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'uyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((77, 66, 567, 'yuyu'),)
+
+2023-08-11 21:24:32.687118('Registro dado de alta: ', '\n', 'Cuenta: ', 77, '\n', 'Reparto: ', 66, '\n', 'Numero de CLiente: ', 567, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'uyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:24:47.568038('Registro actualizado', '\n', 'Cuenta: ', 77, '\n', 'Reparto: ', 66, '\n', 'Numero de CLiente: ', 567, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'uyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 77777, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((77777, 33, 333, 'rtr'),)
+
+2023-08-11 21:28:49.991737('Registro dado de alta: ', '\n', 'Cuenta: ', 77777, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro actualizado', '\n', 'Cuenta: ', 77777, '\n', 'Reparto: ', 33, '\n', 'Numero de CLiente: ', 333, '\n', 'Sucursal: ', 33, '\n', 'Razon Social: ', 'rtr', '\n', 'Direccion: ', 'rtrt', '\n', 'Localidad', 'rtr')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 4, '\n', 'Reparto: ', 4, '\n', 'Numero de cliente: ', 4, '\n', 'Sucursal: ', 0, '\n', 'Razon Social: ', 'rtrt', '\n', 'Direccion: ', 'retrt', '\n', 'Localidad: ', 'retre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 22, '\n', 'Reparto: ', 224, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', '56', '\n', 'Direccion: ', '5656', '\n', 'Localidad', '566')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((22, 224, 5, '56'),)
+
+2023-08-11 21:29:02.664113('Registro dado de alta: ', '\n', 'Cuenta: ', 22, '\n', 'Reparto: ', 224, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', '56', '\n', 'Direccion: ', '5656', '\n', 'Localidad', '566')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:29:10.966577('Registro actualizado', '\n', 'Cuenta: ', 22, '\n', 'Reparto: ', 224, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', '56', '\n', 'Direccion: ', '5656', '\n', 'Localidad', '566')
+
+('Registro actualizado', '\n', 'Cuenta: ', 787, '\n', 'Reparto: ', 77, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7776, '\n', 'Razon Social: ', '6', '\n', 'Direccion: ', '6', '\n', 'Localidad', '6')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((787, 77, 6, '6'),)
+
+2023-08-11 21:29:54.854815('Registro dado de alta: ', '\n', 'Cuenta: ', 787, '\n', 'Reparto: ', 77, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7776, '\n', 'Razon Social: ', '6', '\n', 'Direccion: ', '6', '\n', 'Localidad', '6')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:30:00.958231('Registro actualizado', '\n', 'Cuenta: ', 787, '\n', 'Reparto: ', 77, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 7776, '\n', 'Razon Social: ', '6', '\n', 'Direccion: ', '6', '\n', 'Localidad', '6')
+
+('Registro actualizado', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 5789, '\n', 'Numero de CLiente: ', 56, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'u', '\n', 'Direccion: ', 'u', '\n', 'Localidad', 'oi')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((55, 5789, 56, 'u'),)
+
+2023-08-11 21:34:33.368963('Registro dado de alta: ', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 5789, '\n', 'Numero de CLiente: ', 56, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'u', '\n', 'Direccion: ', 'u', '\n', 'Localidad', 'oi')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:34:41.987045('Registro actualizado', '\n', 'Cuenta: ', 55, '\n', 'Reparto: ', 5789, '\n', 'Numero de CLiente: ', 56, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'u', '\n', 'Direccion: ', 'u', '\n', 'Localidad', 'oi')
+
+('Registro actualizado', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 77, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uyi', '\n', 'Direccion: ', 'iuiu', '\n', 'Localidad', 'iuiu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((7, 77, 78, 'uyi'),)
+
+2023-08-11 21:37:26.629116('Registro dado de alta: ', '\n', 'Cuenta: ', 7, '\n', 'Reparto: ', 77, '\n', 'Numero de CLiente: ', 78, '\n', 'Sucursal: ', 78, '\n', 'Razon Social: ', 'uyi', '\n', 'Direccion: ', 'iuiu', '\n', 'Localidad', 'iuiu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:37:33.462379('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'yuy', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'uyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((6, 6, 6, 'yuy'),)
+
+2023-08-11 21:40:07.207750('Registro dado de alta: ', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'yuy', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'uyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:40:22.849879('Registro actualizado', '\n', 'Cuenta: ', 6, '\n', 'Reparto: ', 6, '\n', 'Numero de CLiente: ', 6, '\n', 'Sucursal: ', 6, '\n', 'Razon Social: ', 'yuy', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'uyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 55, 55, 'tyt'),)
+
+2023-08-11 21:44:23.863166('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 55, '\n', 'Numero de CLiente: ', 55, '\n', 'Sucursal: ', 74, '\n', 'Razon Social: ', 'tyt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 9, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'ñ')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((9, 9, 9, 'yuyu'),)
+
+2023-08-11 21:45:08.983292('Registro dado de alta: ', '\n', 'Cuenta: ', 9, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'ñ')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:45:13.624131('Registro actualizado', '\n', 'Cuenta: ', 9, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'ñ')
+
+('Registro actualizado', '\n', 'Cuenta: ', 9, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'ñ')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 3, '\n', 'Reparto: ', 23, '\n', 'Numero de cliente: ', 23, '\n', 'Sucursal: ', 23, '\n', 'Razon Social: ', 'ewr', '\n', 'Direccion: ', 'erewrewrewr', '\n', 'Localidad: ', 'erre')
+
+('Registro actualizado', '\n', 'Cuenta: ', 9, '\n', 'Reparto: ', 9, '\n', 'Numero de CLiente: ', 9, '\n', 'Sucursal: ', 9, '\n', 'Razon Social: ', 'yuyu', '\n', 'Direccion: ', 'yuy', '\n', 'Localidad', 'ñ')
+
+('Registro eliminado: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 77, '\n', 'Numero de cliente: ', 55, '\n', 'Sucursal: ', 685, '\n', 'Razon Social: ', 'ry', '\n', 'Direccion: ', 'ty', '\n', 'Localidad: ', 'tyt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 98, '\n', 'Reparto: ', 78677, '\n', 'Numero de CLiente: ', 89, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'iuui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iui')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((98, 78677, 89, 'iuui'),)
+
+2023-08-11 21:46:00.094446('Registro dado de alta: ', '\n', 'Cuenta: ', 98, '\n', 'Reparto: ', 78677, '\n', 'Numero de CLiente: ', 89, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'iuui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iui')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:46:10.322449AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:46:10.326216AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:49:30.604592('Registro actualizado', '\n', 'Cuenta: ', 98, '\n', 'Reparto: ', 78677, '\n', 'Numero de CLiente: ', 89, '\n', 'Sucursal: ', 87, '\n', 'Razon Social: ', 'iuui', '\n', 'Direccion: ', 'uiu', '\n', 'Localidad', 'iui')
+
+('Registro actualizado', '\n', 'Cuenta: ', 454, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 654276, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'tty', '\n', 'Localidad', 'yt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((454, 45, 7, 'ty'),)
+
+2023-08-11 21:51:00.583529('Registro dado de alta: ', '\n', 'Cuenta: ', 454, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 654276, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'tty', '\n', 'Localidad', 'yt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:51:12.440913('Registro actualizado', '\n', 'Cuenta: ', 454, '\n', 'Reparto: ', 45, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 654276, '\n', 'Razon Social: ', 'ty', '\n', 'Direccion: ', 'tty', '\n', 'Localidad', 'yt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 43, '\n', 'Reparto: ', 435, '\n', 'Numero de CLiente: ', 453, '\n', 'Sucursal: ', 45, '\n', 'Razon Social: ', 'retr', '\n', 'Direccion: ', 'rtrtrt', '\n', 'Localidad', 'rt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((43, 435, 453, 'retr'),)
+
+2023-08-11 21:52:49.399333('Registro dado de alta: ', '\n', 'Cuenta: ', 43, '\n', 'Reparto: ', 435, '\n', 'Numero de CLiente: ', 453, '\n', 'Sucursal: ', 45, '\n', 'Razon Social: ', 'retr', '\n', 'Direccion: ', 'rtrtrt', '\n', 'Localidad', 'rt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:52:59.561927('Registro actualizado', '\n', 'Cuenta: ', 43, '\n', 'Reparto: ', 435, '\n', 'Numero de CLiente: ', 453, '\n', 'Sucursal: ', 45, '\n', 'Razon Social: ', 'retr', '\n', 'Direccion: ', 'rtrtrt', '\n', 'Localidad', 'rt')
+
+('Registro actualizado', '\n', 'Cuenta: ', 76, '\n', 'Reparto: ', 54, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 456, '\n', 'Razon Social: ', 'ytt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((76, 54, 5, 'ytt'),)
+
+2023-08-11 21:55:29.215314('Registro dado de alta: ', '\n', 'Cuenta: ', 76, '\n', 'Reparto: ', 54, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 456, '\n', 'Razon Social: ', 'ytt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 21:55:34.071054('Registro actualizado', '\n', 'Cuenta: ', 76, '\n', 'Reparto: ', 54, '\n', 'Numero de CLiente: ', 5, '\n', 'Sucursal: ', 456, '\n', 'Razon Social: ', 'ytt', '\n', 'Direccion: ', 'ytyt', '\n', 'Localidad', 'yty')
+
+('Registro actualizado', '\n', 'Cuenta: ', 65, '\n', 'Reparto: ', 67, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', '7', '\n', 'Direccion: ', '676', '\n', 'Localidad', '767')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((65, 67, 4, '7'),)
+
+2023-08-11 22:01:22.710765('Registro dado de alta: ', '\n', 'Cuenta: ', 65, '\n', 'Reparto: ', 67, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', '7', '\n', 'Direccion: ', '676', '\n', 'Localidad', '767')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ()
+
+2023-08-11 22:01:54.491558('Registro actualizado', '\n', 'Cuenta: ', 65, '\n', 'Reparto: ', 67, '\n', 'Numero de CLiente: ', 4, '\n', 'Sucursal: ', 7, '\n', 'Razon Social: ', '7', '\n', 'Direccion: ', '676', '\n', 'Localidad', '767')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 64, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 47, '\n', 'Razon Social: ', 'yuy', '\n', 'Direccion: ', 'uyuy', '\n', 'Localidad', 'uyu')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 64, 7, 'yuy'),)
+
+2023-08-11 22:03:08.125265('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 64, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 47, '\n', 'Razon Social: ', 'yuy', '\n', 'Direccion: ', 'uyuy', '\n', 'Localidad', 'uyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 64, '\n', 'Numero de CLiente: ', 7, '\n', 'Sucursal: ', 47, '\n', 'Razon Social: ', 'yuy', '\n', 'Direccion: ', 'uyuy', '\n', 'Localidad', 'uyu')
+
+('Registro actualizado', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 76, '\n', 'Numero de CLiente: ', 67, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'yty', '\n', 'Direccion: ', 'tytytyt', '\n', 'Localidad', 'tytyt')
+
+AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   ((5, 76, 67, 'yty'),)
+
+2023-08-11 22:06:08.548176('Registro dado de alta: ', '\n', 'Cuenta: ', 5, '\n', 'Reparto: ', 76, '\n', 'Numero de CLiente: ', 67, '\n', 'Sucursal: ', 67, '\n', 'Razon Social: ', 'yty', '\n', 'Direccion: ', 'tytytyt', '\n', 'Localidad', 'tytyt')
+
