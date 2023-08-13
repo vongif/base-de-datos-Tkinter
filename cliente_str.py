@@ -3,6 +3,7 @@ import sys
 import binascii
 import observador
 import decoradores
+import datetime
 
 
 HOST, PORT = "localhost", 9999
@@ -15,15 +16,32 @@ sock.sendto(mensaje.encode("UTF-8"), (HOST, PORT))
 received = sock.recvfrom(1024)
 
 
-print("Recibi el alta del registro:  ")
-print("seeeeee", observador.ConcreteObserverA.update)
+class Cliente_servidor:
+    def __init__(self, obj):
+        self.observado_a = obj
+        self.observado_a.agregar(self)
 
-archivo = open("registro_cliente.txt", "a")
-archivo.write(str(object) + "\n" + "\n")
+    def cliente(self, *args):
+        print("Recibi el alta del registro:  ")
+        print("seeeeee", observador.ConcreteObserverA)
+        archivo = open("registro_cliente.txt", "a")
+        x = datetime.datetime.now()
+        archivo.write(
+            "AVISO !!!!! ------------  para Observador A. Se realizo un Alta:   "
+            + str(args)
+            + "\n"
+            + "\n"
+            + str((x))
+        )
+        return args
 
+
+print("seeeeee", Cliente_servidor.cliente(str(set.update)))
+# archivo = open("registro_cliente.txt", "a")
+# archivo.write(str(object) + "\n" + "\n")
 print("seeeeee", decoradores.decorador_alta)
 
-print("Estoy conectado  " + "--------------------------------")
+
 
 
 # ===== FIN ENVIO Y RECEPCIÓN DE DATOS =================
